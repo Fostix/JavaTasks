@@ -7,10 +7,10 @@ public class Main {
 //        ArrayList<Integer> firstTower = (ArrayList<Integer>) CreateTowerClass.CreateTower(count);
 //        ArrayList<Integer> secondTower = new ArrayList<>();
 //        ArrayList<Integer> thirdTower = new ArrayList<>();
-////        int firstLastEl = firstTower.get(firstTower.size() - 1);
-////        int secLastEl = secondTower.get(secondTower.size() - 1);
-////        int thirdLastEl = firstTower.get(firstTower.size() - 1);
-////        System.out.println(firstLastEl);
+//        int firstLastEl = firstTower.get(firstTower.size() - 1);
+//        int secLastEl = secondTower.get(secondTower.size() - 1);
+//        int thirdLastEl = firstTower.get(firstTower.size() - 1);
+//        System.out.println(firstLastEl);
 //
 //        for (int i = 0; i < 15; i++) {
 //            if (secondTower.isEmpty() || firstTower.get(firstTower.size() - 1) < secondTower.get(secondTower.size() - 1)) {
@@ -64,7 +64,7 @@ public class Main {
 //        long startTime = System.currentTimeMillis();
 //        TowersOfHanoi(plate_quantity, start_peg, destination_peg, buffer_peg);
 //        long endTime = System.currentTimeMillis();
-//        long testRecurcyMethod = endTime - startTime;
+//        long testRecursionMethod = endTime - startTime;
 
 
 
@@ -84,7 +84,7 @@ public class Main {
 
         ob.tohIterative(num_of_disks, src, aux, dest);
         long endTimeTest = System.currentTimeMillis();
-        //System.out.println(testRecurcyMethod);
+        //System.out.println(testRecursionMethod);
         System.out.println(endTimeTest - startTimeTest);
 
 
