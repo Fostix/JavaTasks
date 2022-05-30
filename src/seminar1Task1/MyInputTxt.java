@@ -6,14 +6,14 @@ import java.io.FileReader;
 
 public class MyInputTxt {
     static void FillArrayx(String str, int[] arr, boolean num){
-        String reading = "";
+        StringBuilder reading = new StringBuilder();
         int length = str.length();
         for (int i = 1; i < length; i++) {
             if (str.charAt(i) == '-' || Character.isDigit(str.charAt(i))) {
-                reading += Character.toString(str.charAt(i));
+                reading.append(str.charAt(i));
             }
         }
-        arr[num ? 1 : 0] = Integer.parseInt(reading);
+        arr[num ? 1 : 0] = Integer.parseInt(reading.toString());
     }
 
     public static int[] ReaderMethod() throws Exception {
@@ -23,9 +23,7 @@ public class MyInputTxt {
         boolean checkA = true;
         boolean checkB = true;
 
-        byte counter = 0;
         while ((str = br.readLine()) != null) {
-            int length = str.length();
             if (checkA && str.charAt(0) == 'a') {
                 FillArrayx(str, arr,false);
                 checkA = false;
