@@ -36,10 +36,3 @@ public class MyInputTxt {
         return arr;
     }
 }
-
-
-
-
-
-
-
