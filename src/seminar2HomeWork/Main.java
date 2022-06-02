@@ -120,6 +120,8 @@ public class Main {
 //    }
 //
 
+
+    public static int count = 0;
     public static void setQueen(int i, int j, byte[][] board) {
         int length = board.length;
         for (int x = 0; x < length; x++) {
@@ -171,13 +173,13 @@ public class Main {
             System.out.println();
         }
 
-        for (byte[] x:
-             boardQueens) {
-            for (int y:
-                 x) {
-                System.out.print(x + " " + y);
-            }
-        }
+//        for (byte[] x:
+//             boardQueens) {
+//            for (byte y:
+//                 x) {
+//                System.out.print(x + " " + y);
+//            }
+//        }
     }
 
 
@@ -187,6 +189,7 @@ public class Main {
             if(board[i][j] == 0) {
                 setQueen(i, j, board);
                 if (i == length - 1) {
+                    count++;
                     printPosition(board);
                 } else {
                     solve(i + 1, board);
@@ -199,10 +202,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        byte[][] board = new byte[4][4];
+        byte[][] board = new byte[8][8];
 
-
+        long seed = System.currentTimeMillis();
         solve(0, board);
+        System.out.print("\ncount " + count + "." + "\ntimer ");
+        System.out.println(System.currentTimeMillis() - seed + ".");
+
 
     }
 
