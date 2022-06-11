@@ -1,4 +1,4 @@
-package seminar2HomeWork;
+package seminar2HomeWork.eightQueens;
 
 
 import java.util.ArrayList;
@@ -163,23 +163,16 @@ public class Main {
                     boardQueens[i][j] = 1;
                 }
             }
-            System.out.println();
         }
 
-        for (int i = 0; i < length; i++) {
-            for (int j = 0; j < length; j++) {
-                System.out.print(boardQueens[i][j] + " ");
+        System.out.println();
+
+        for (byte[] x: boardQueens) {
+            for (byte y: x) {
+                System.out.print(y + " ");
             }
             System.out.println();
         }
-
-//        for (byte[] x:
-//             boardQueens) {
-//            for (byte y:
-//                 x) {
-//                System.out.print(x + " " + y);
-//            }
-//        }
     }
 
 
@@ -202,7 +195,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        byte[][] board = new byte[8][8];
+        byte lengthBoard = 4;
+
+        byte[][] board = new byte[lengthBoard][lengthBoard];
 
         long seed = System.currentTimeMillis();
         solve(0, board);
