@@ -25,12 +25,12 @@ public class Managers extends Employee {
         this.subordinates = new ArrayList<Employee>();
 
     }
-
+    /**Добавление */
     public void addSubordinates(Employee employee) {
         subordinates.add(employee);
     }
 
-
+    /**Удаление */
     public void removeSubordinates(Employee employee) {
         subordinates.remove(employee);
     }
@@ -49,7 +49,7 @@ public class Managers extends Employee {
         return result + "\n";
     }
 
-    //        %d: целочисленных значений
+//        %d: целочисленных значений
 //        %x: для вывода шестнадцатеричных чисел
 //        %f: для вывода чисел с плавающей точкой
 //        %e: для вывода чисел в экспоненциальной форме, например, 3.1415e+01
