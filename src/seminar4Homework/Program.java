@@ -2,7 +2,6 @@ package seminar4Homework;
 
 public class Program {
     public static void main(String[] args) {
-        // Еще не всё сделал!!!
 
         BaseProduct product = new BaseProduct("Бумага", 999.99, 5, "кг");
         System.out.println(product);
