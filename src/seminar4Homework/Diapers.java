@@ -32,6 +32,7 @@ public class Diapers extends HygieneItem{
 
     @Override
     public String toString() {
-        return super.toString() + String.format(", размер %s, минимальный вес: %d, максимальный вес: %d, тип: %s.", this.size, this.minimumWeight, this.maximumWeight, this.type);
+        return super.toString() + String.format(", размер %s, минимальный вес: %d, максимальный вес: %d, тип: %s.",
+                this.size, this.minimumWeight, this.maximumWeight, this.type);
     }
 }

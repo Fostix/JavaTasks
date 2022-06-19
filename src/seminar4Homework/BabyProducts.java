@@ -20,4 +20,9 @@ public class BabyProducts extends BaseProduct{
         this.minimumAge = minimumAge;
         this.hypoallergenic = hypoallergenic;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + String.format(", минимальный возраст: %d, гипоаллергенный: %b", this.minimumAge, this.hypoallergenic);
+    }
 }
