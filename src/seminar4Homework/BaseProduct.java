@@ -13,7 +13,7 @@ public class BaseProduct {
      * Создать
      * @param name Название
      * @param price Цена
-     * @param count Количество
+     * @param count Вес
      * @param magnitude Единица измерения
      */
     public BaseProduct(String name, double price, double count, String magnitude) {
@@ -25,7 +25,7 @@ public class BaseProduct {
 
     @Override
     public String toString() {
-        return String.format("Название: %s, цена: %.2f камней, количество: %.2f%s", this.productName, this.productPrice, this.count, this.unitOfMeasurement);
+        return String.format("Название: %s, цена: %.2f камней, вес: %.2f%s", this.productName, this.productPrice, this.count, this.unitOfMeasurement);
 
     }
 }

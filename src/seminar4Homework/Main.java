@@ -2,6 +2,7 @@ package seminar4Homework;
 
 public class Main {
     public static void main(String[] args) {
+        // Еще не всё сделал!!!
 
         BaseProduct product = new BaseProduct("Бумага", 999.99, 5, "кг");
         System.out.println(product);
@@ -15,7 +16,7 @@ public class Main {
         BaseProduct product3 = new HygieneItem("Ушные алибардочки", 99.99, 1, "грамм", 50);
         System.out.println(product3);
 
-        BaseProduct product4 = new BabyProducts("Подгузник надгузник", 299.99, 100, "грамм", 0, true);
+        BaseProduct product4 = new BabyProducts("Детская еда", 299.99, 500, "грамм", 0, true);
         System.out.println(product4);
 
         BaseProduct product5 = new Milk("Молоко", 69.99, 0.5, "литр", "19.06.2022", 5);
@@ -36,7 +37,11 @@ public class Main {
         BaseProduct product10 = new ToiletPaper("Подтирашка", 99.99, 500, "грамм", 2);
         System.out.println(product10);
 
+        BaseProduct product11 = new Diapers("Надгузник", 499.99, 500, "грамм", 5, "xl", 300, 900, "Детский");
+        System.out.println(product11);
 
+        BaseProduct product12 = new Pacifler("Моска", 150.99, 50, "грамм", 0, true);
+        System.out.println(product12);
 
     }
 }
