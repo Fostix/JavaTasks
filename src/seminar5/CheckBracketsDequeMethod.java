@@ -39,8 +39,8 @@ public class CheckBracketsDequeMethod {
 
 
         Deque<Character> forCheck = new ArrayDeque<>();
-        System.out.print(exp);
-        System.out.print(" -> ");
+        // System.out.print(exp);
+        // System.out.print(" -> ");
 
         for (char charSymbol : exp) {
 

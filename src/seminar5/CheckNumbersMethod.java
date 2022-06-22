@@ -19,7 +19,7 @@ public class CheckNumbersMethod {
             }
         }
 
-        System.out.print(ex + " -> ");
+        // System.out.print(ex + " -> ");
 
         if (res == 0) {
             return true;
