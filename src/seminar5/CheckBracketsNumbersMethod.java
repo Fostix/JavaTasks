@@ -1,6 +1,6 @@
 package seminar5;
 
-public class CheckNumbersMethod {
+public class CheckBracketsNumbersMethod {
     public static boolean checkingBrackets(String ex) {
 
         var exp = ex.toCharArray();

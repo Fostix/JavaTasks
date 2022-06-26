@@ -10,7 +10,7 @@ public class CheckBracketsDequeMethod {
      * Проверка скобок
      * @param type 0 everything brackets, 1 only open brackets, 2 only close brackets.
      * */
-    private static boolean isBrackets(Character mrChar, int type) {
+    public static boolean isBrackets(Character mrChar, int type) {
 
         Character[] allBrackets = new Character[]{'(', ')', '{', '}', '[', ']', '<', '>'};
 

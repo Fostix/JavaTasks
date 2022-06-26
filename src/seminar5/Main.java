@@ -67,16 +67,16 @@ public class Main {
 //        System.out.println(CheckNumbersMethod.checkingBrackets("()"));
 //        System.out.println(CheckNumbersMethod.checkingBrackets(")"));
 
-            CheckNumbersMethod.checkingBrackets("a+(d*3)");
-            CheckNumbersMethod.checkingBrackets("[a+(1*3)");
-            CheckNumbersMethod.checkingBrackets("[6+(3*3)]");
-            CheckNumbersMethod.checkingBrackets("{a}[+]{(d*3)}");
-            CheckNumbersMethod.checkingBrackets("<{a}+{(d*3)}>");
-            CheckNumbersMethod.checkingBrackets("{a+]}{(d*3)}");
-            CheckNumbersMethod.checkingBrackets("{}}");
-            CheckNumbersMethod.checkingBrackets("(");
-            CheckNumbersMethod.checkingBrackets("()");
-            CheckNumbersMethod.checkingBrackets(")");
+            CheckBracketsNumbersMethod.checkingBrackets("a+(d*3)");
+            CheckBracketsNumbersMethod.checkingBrackets("[a+(1*3)");
+            CheckBracketsNumbersMethod.checkingBrackets("[6+(3*3)]");
+            CheckBracketsNumbersMethod.checkingBrackets("{a}[+]{(d*3)}");
+            CheckBracketsNumbersMethod.checkingBrackets("<{a}+{(d*3)}>");
+            CheckBracketsNumbersMethod.checkingBrackets("{a+]}{(d*3)}");
+            CheckBracketsNumbersMethod.checkingBrackets("{}}");
+            CheckBracketsNumbersMethod.checkingBrackets("(");
+            CheckBracketsNumbersMethod.checkingBrackets("()");
+            CheckBracketsNumbersMethod.checkingBrackets(")");
 
 
             secondMethodTimers[i] = -secondMethodTime + System.nanoTime();

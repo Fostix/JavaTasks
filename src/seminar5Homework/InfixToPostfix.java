@@ -1,54 +1,86 @@
 package seminar5Homework;
-
-
 import java.util.Stack;
 
+import static seminar5.CheckBracketsDequeMethod.isBrackets;
+
 public class InfixToPostfix {
-    static int operationTest(char forCheck) {
-        return switch (forCheck) {
+
+    private static int operationPriority(char symbol) {
+        return switch (symbol) {
             case '+', '-' -> 1;
             case '*', '/' -> 2;
             case '^' -> 3;
-            default -> -1;
+            case 'S', 'C', 'T' -> 4;
+            default -> 0;
         };
     }
+    protected static String infixToPostfix(String infixText) {
 
-    static StringBuilder infixToPostfix(String expression) {
-        StringBuilder result = new StringBuilder();
+        infixText = infixText.replace(" ", "");
+        infixText = infixText.replace("Sin", "S");
+        infixText = infixText.replace("Cos", "C");
+        infixText = infixText.replace("Tan", "T");
+
+        StringBuilder result = new StringBuilder("");
 
         Stack<Character> lifo = new Stack<>();
 
-        for (int i = 0; i < expression.length(); ++i) {
-            char symbol = expression.charAt(i);
+        int lengthForCycle = infixText.length();
 
-            if (Character.isLetterOrDigit(symbol)) result.append(symbol);
 
-            else if (symbol == '(') lifo.push(symbol);
 
-            else if (symbol == ')') {
-                while (!lifo.isEmpty() && lifo.peek() != '(') {
+        for (int i = 0; i < lengthForCycle; i++) {
+            char item = infixText.charAt(i);
+
+            if(Character.isLetterOrDigit(item) || item == '.') {
+                result.append(item);
+            }
+
+            else if (isBrackets(item, 1)) {
+                if (i != 0)  result.append(" ");
+                lifo.push(item);
+            }
+
+            else if (isBrackets(item, 2)) {
+                while (!lifo.isEmpty() && !isBrackets(lifo.peek(), 1)) {
+                    result.append(" ");
                     result.append(lifo.pop());
                 }
 
                 lifo.pop();
             }
 
+
             else {
-                while (!lifo.isEmpty() && operationTest(symbol) <= operationTest(lifo.peek())) {
+                while (!lifo.isEmpty() &&
+                        operationPriority(item) <= operationPriority(lifo.peek())) {
+                    result.append(" ");
                     result.append(lifo.pop());
                 }
-                lifo.push(symbol);
+                result.append(" ");
+                lifo.push(item);
             }
 
 
         }
 
-        while(!lifo.isEmpty()) {
-            if(lifo.peek() == '(') {
-                return new StringBuilder("can't");
-            }
+        while (!lifo.isEmpty()) {
+            if(isBrackets(lifo.peek(), 1)) return "Invalid expression!";
+            result.append(" ");
             result.append(lifo.pop());
         }
-        return result;
+        result = new StringBuilder(result.toString().replace("S", "Sin "));
+        result = new StringBuilder(result.toString().replace("C", "Cos "));
+        result = new StringBuilder(result.toString().replace("T", "Tan "));
+        result = new StringBuilder(result.toString().replace("Pi", "3.1415"));
+        result = new StringBuilder(result.toString().replace("  ", " "));
+
+        return result.toString();
+
+
     }
+
+
+
+
 }
