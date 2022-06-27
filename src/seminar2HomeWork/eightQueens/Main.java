@@ -1,7 +1,6 @@
 package seminar2HomeWork.eightQueens;
 
 
-import java.util.ArrayList;
 
 public class Main {
 
