@@ -16,55 +16,37 @@ public class Solve {
         }
     }
 
-    protected static void solveMath(String solve) {
+    protected static String solveMath(String solve) {
         String[] postfix = solve.split(" ");
         Stack<String> lifo = new Stack<>();
 
 
 
         for (String s : postfix) {
-            if (isDigit(s)) {
-                lifo.push(String.valueOf(Double.parseDouble(s)));
-                System.out.println(lifo);
-            } else {
-                switch (s) {
-                    case "+":
-                        lifo.push(String.valueOf(Double.parseDouble(lifo.pop()) + Double.parseDouble(lifo.pop())));
-                        break;
-                    case "-":
-                        //System.out.println(Math.round(Double.parseDouble(Double.toString(-Double.parseDouble(lifo.pop()) + Double.parseDouble(lifo.pop())))) + " dgfdfg");
-                        lifo.push(String.valueOf(-Double.parseDouble(lifo.pop()) + Double.parseDouble(lifo.pop())));
-                        break;
-                    case "*":
-                        lifo.push(String.valueOf(Double.parseDouble(lifo.pop()) * Double.parseDouble(lifo.pop())));
-                    case "/":
-                        double temp = parseDouble(lifo.pop());
-                        lifo.push(String.valueOf(Double.parseDouble(lifo.pop()) / temp));
-                        break;
-                    case "^":
-                        temp = parseDouble(lifo.pop());
-                        lifo.push(String.valueOf(Math.pow(Double.parseDouble(lifo.pop()), temp)));
-                        break;
-                    case "Sin":
-                        lifo.push(String.valueOf(Math.sin(Double.parseDouble(lifo.pop()))));
-                        break;
-                    case "Cos":
-                        lifo.push(String.valueOf(Math.cos(Double.parseDouble(lifo.pop()))));
-                        break;
-                    case "Tan":
-                        lifo.push(String.valueOf(Math.tan(Double.parseDouble(lifo.pop()))));
-                        break;
-                    default:
-                        break;
+            switch (s) {
+                case "+" -> lifo.push(String.valueOf(parseDouble(lifo.pop()) + parseDouble(lifo.pop())));
+                case "-" -> //System.out.println(Math.round(Double.parseDouble(Double.toString(-Double.parseDouble(lifo.pop()) + Double.parseDouble(lifo.pop())))) + " dgfdfg");
+                        lifo.push(String.valueOf(-parseDouble(lifo.pop()) + parseDouble(lifo.pop())));
+                case "*" -> lifo.push(String.valueOf(parseDouble(lifo.pop()) * parseDouble(lifo.pop())));
+                case "/" -> {
+                    double temp = parseDouble(lifo.pop());
+                    lifo.push(String.valueOf(parseDouble(lifo.pop()) / temp));
                 }
+                case "^" -> {
+                    double temp;
+                    temp = parseDouble(lifo.pop());
+                    lifo.push(String.valueOf(Math.pow(parseDouble(lifo.pop()), temp)));
+                }
+                case "Sin" -> lifo.push(String.valueOf(Math.sin(parseDouble(lifo.pop()))));
+                case "Cos" -> lifo.push(String.valueOf(Math.cos(parseDouble(lifo.pop()))));
+                case "Tan" -> lifo.push(String.valueOf(Math.tan(parseDouble(lifo.pop()))));
+                default -> lifo.push(s);
             }
         }
-        System.out.println(lifo);
-        //System.out.printf("%d\n", lifo.pop());
+        solve = lifo.pop();
+        return solve;
     }
 }
-        //System.out.println(result);
-        //System.out.print(lifo);
 
 
 

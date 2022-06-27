@@ -18,8 +18,12 @@ public class InfixToPostfix {
 
         infixText = infixText.replace(" ", "");
         infixText = infixText.replace("Sin", "S");
+        infixText = infixText.replace("sin", "S");
         infixText = infixText.replace("Cos", "C");
+        infixText = infixText.replace("cos", "C");
         infixText = infixText.replace("Tan", "T");
+        infixText = infixText.replace("tan", "T");
+        infixText = infixText.replace("Pi", String.valueOf(Math.PI));
 
         StringBuilder result = new StringBuilder("");
 
@@ -30,9 +34,9 @@ public class InfixToPostfix {
 
 
         for (int i = 0; i < lengthForCycle; i++) {
-            char item = infixText.charAt(i);
+            Character item = infixText.charAt(i);
 
-            if(Character.isLetterOrDigit(item) || item == '.') {
+            if(Character.isDigit(item) || item == '.') {
                 result.append(item);
             }
 
@@ -46,7 +50,6 @@ public class InfixToPostfix {
                     result.append(" ");
                     result.append(lifo.pop());
                 }
-
                 lifo.pop();
             }
 
@@ -56,8 +59,7 @@ public class InfixToPostfix {
                         operationPriority(item) <= operationPriority(lifo.peek())) {
                     result.append(" ");
                     result.append(lifo.pop());
-                }
-                result.append(" ");
+                }result.append(" ");
                 lifo.push(item);
             }
 
@@ -72,8 +74,7 @@ public class InfixToPostfix {
         result = new StringBuilder(result.toString().replace("S", "Sin "));
         result = new StringBuilder(result.toString().replace("C", "Cos "));
         result = new StringBuilder(result.toString().replace("T", "Tan "));
-        result = new StringBuilder(result.toString().replace("Pi", "3.1415"));
-        result = new StringBuilder(result.toString().replace("  ", " "));
+        result = new StringBuilder(result.toString().replaceAll("\\s+", " "));
 
         return result.toString();
 
