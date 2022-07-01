@@ -1,8 +1,6 @@
 package seminar6Homework;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,14 +24,35 @@ public class Main {
         System.out.println(
                 new MapPrinter().rawData(
                         mg.getMap())
+        );
+
+
+
+        WaveAlgorithm go = new WaveAlgorithm(mg.getMap());
+        ArrayList<Point2D> wave =  lee.getRoad(findExit);
+
+
+        System.out.println(
+                new MapPrinter().rawData(
+                        mg.getMap())
 
         );
 
 
-        WaveAlgorithm go = new WaveAlgorithm(mg.getMap());
-        lee.getRoad(findExit);
+
+        mg = new MapGenerator();
 
 
+
+        go.createWay(wave);
+
+
+
+        System.out.println(
+                new MapPrinter().rawData(
+                        mg.getMap())
+
+        );
 
 
 
@@ -218,38 +237,57 @@ class WaveAlgorithm {
 
     }
 
-    public void getRoad(Point2D exit) {
+    public ArrayList<Point2D> getRoad(Point2D exit) {
         ArrayList<Point2D> road = new ArrayList<>();
 
-        System.out.println(exit + "  dfgdfgf");
 
-        map[exit.x][exit.y] = -4;
+        map[exit.x][exit.y] = 17;
+
         Point2D p = exit;
 
-        while (map[p.x][p.y] == 1) {
+        road.add(new Point2D(exit.x, exit.y));
 
-            if (map[p.x - 1][p.y] == 0) {
+        while (map[p.x][p.y] >= 1) {
+            if (map[p.x - 1][p.y] < map[p.x][p.y] && map[p.x - 1][p.y] > 0) {
                 road.add(new Point2D(p.x - 1, p.y));
-                map[p.x - 1][p.y] = map[p.x][p.y] + 1;
+                p.x -= 1;
             }
 
-            if (map[p.x][p.y - 1] == 0) {
+            if (map[p.x][p.y - 1] < map[p.x][p.y] && map[p.x][p.y - 1] > 0) {
                 road.add(new Point2D(p.x, p.y - 1));
-                map[p.x][p.y - 1] = map[p.x][p.y] + 1;
+                p.y -= 1;
             }
 
-            if (map[p.x + 1][p.y] == 0) {
+            if (map[p.x + 1][p.y] < map[p.x][p.y] && map[p.x + 1][p.y] > 0) {
                 road.add(new Point2D(p.x + 1, p.y));
-                map[p.x + 1][p.y] = map[p.x][p.y] + 1;
+                p.x -= 1;
             }
 
-            if (map[p.x][p.y + 1] == 0) {
+            if (map[p.x][p.y + 1] < map[p.x][p.y] && map[p.x][p.y + 1] > 0) {
                 road.add(new Point2D(p.x, p.y + 1));
-                map[p.x][p.y + 1] = map[p.x][p.y] + 1;
+                p.y += 1;
             }
 
         }
 
+
+
         return road;
     }
+
+
+
+    public void createWay(ArrayList<Point2D> way) {
+        for (int i = 0; i < map.length; i++) {
+            for (int j = 0; j < map[0].length; j++) {
+                System.out.print(map[i][j] + "   ");
+            }
+            System.out.println();
+        }
+        System.out.println(way);
+    }
+
+
+
+
 }
