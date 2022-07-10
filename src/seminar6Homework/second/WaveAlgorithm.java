@@ -1,6 +1,7 @@
 package seminar6Homework.second;
 
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -89,13 +90,16 @@ class WaveAlgorithm{
                 road.add(new Point2D(p.x, p.y + 1));
                 p.y += 1;
             }
+            System.out.println(road);
 
         }
         return road;
     }
 
     public void markWay(ArrayList<Point2D> way) {
-        System.out.println(way);
+        while (!way.isEmpty()) {
+            System.out.println(way.size());
+        }
     }
 
 
