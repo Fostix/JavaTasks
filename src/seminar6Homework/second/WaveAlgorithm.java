@@ -1,9 +1,6 @@
 package seminar6Homework.second;
 
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 class WaveAlgorithm{
     int[][] map;
@@ -60,8 +57,8 @@ class WaveAlgorithm{
 
     }
 
-    public ArrayList<Point2D> getRoad(Point2D exit) {
-        ArrayList<Point2D> road = new ArrayList<>();
+    public Deque<Point2D> getRoad(Point2D exit) {
+        Deque<Point2D> road = new ArrayDeque<>();
 
 
         map[exit.x][exit.y] = 17;
@@ -70,7 +67,7 @@ class WaveAlgorithm{
 
         road.add(new Point2D(exit.x, exit.y));
 
-        while (map[p.x][p.y] >= 1) {
+        while (map[p.x][p.y] != 1) {
             if (map[p.x - 1][p.y] < map[p.x][p.y] && map[p.x - 1][p.y] > 0) {
                 road.add(new Point2D(p.x - 1, p.y));
                 p.x -= 1;
@@ -83,23 +80,27 @@ class WaveAlgorithm{
 
             if (map[p.x + 1][p.y] < map[p.x][p.y] && map[p.x + 1][p.y] > 0) {
                 road.add(new Point2D(p.x + 1, p.y));
-                p.x -= 1;
+                p.x += 1;
             }
 
             if (map[p.x][p.y + 1] < map[p.x][p.y] && map[p.x][p.y + 1] > 0) {
                 road.add(new Point2D(p.x, p.y + 1));
                 p.y += 1;
             }
-            System.out.println(road);
 
         }
         return road;
     }
 
-    public void markWay(ArrayList<Point2D> way) {
-        while (!way.isEmpty()) {
-            System.out.println(way.size());
+    public void markWay(Deque<Point2D> way) {
+        for (int i = way.size(); i > 0; i--) {
+            map[way.getFirst().getX()][way.getFirst().getY()] = i;
+            way.removeFirst();
+
         }
+//        while (!way.isEmpty()) {
+//            System.out.println(way.getFirst().getX());
+//        }
     }
 
 

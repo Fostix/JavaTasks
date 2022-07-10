@@ -40,7 +40,7 @@ class MapPrinter {
                         sb.append("E");
                         break;
                     default:
-                        break;
+                        sb.append("+");
                 }
             }
             sb.append("\n");
