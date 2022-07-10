@@ -98,21 +98,9 @@ class WaveAlgorithm{
             way.removeFirst();
 
         }
-//        while (!way.isEmpty()) {
-//            System.out.println(way.getFirst().getX());
-//        }
     }
 
 
-    public void createWay(ArrayList<Point2D> way) {
-        for (int i = 0; i < map.length; i++) {
-            for (int j = 0; j < map[0].length; j++) {
-                System.out.print(map[i][j] + "   ");
-            }
-            System.out.println();
-        }
-        System.out.println(way);
-    }
 
 
 }
