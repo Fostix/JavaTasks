@@ -1,4 +1,4 @@
-package seminar6Homework;
+package seminar6Homework.first;
 
 import java.util.*;
 
@@ -19,41 +19,12 @@ public class Main {
         );
 
         WaveAlgorithm lee = new WaveAlgorithm(mg.getMap());
-        Point2D findExit =  lee.Colorize(new Point2D(1, 1));
+        Point2D findExit = lee.Colorize(new Point2D(1, 1));
 
-        System.out.println(
-                new MapPrinter().rawData(
-                        mg.getMap())
-        );
-
-
-
-        WaveAlgorithm go = new WaveAlgorithm(mg.getMap());
-        ArrayList<Point2D> wave =  lee.getRoad(findExit);
-
-
-        System.out.println(
-                new MapPrinter().rawData(
-                        mg.getMap())
-
-        );
-
+        System.out.println(new MapPrinter().rawData(mg.getMap()));
 
 
         mg = new MapGenerator();
-
-
-
-        go.createWay(wave);
-
-
-
-        System.out.println(
-                new MapPrinter().rawData(
-                        mg.getMap())
-
-        );
-
 
 
         //mapColor
@@ -87,21 +58,21 @@ class MapGenerator {
 
     public MapGenerator() {
         int[][] map = {
-                { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
-                { -1, -2,  0,  0, -1,  0,  0,  0,  0,  0,  0,  0,  0,  0, -1 },
-                { -1,  0,  0,  0,  0,  0,  0, -1,  0,  0,  0,  0,  0,  0, -1 },
-                { -1,  0,  0,  0, -1,  0,  0, -1,  0,  0,  0,  0,  0,  0, -1 },
-                { -1,  0,  0,  0, -1,  0, -1, -1, -1, -1,  0,  0,  0,  0, -1 },
-                { -1,  0,  0,  0, -1,  0, -1,  0,  0, -1,  0,  0,  0,  0, -1 },
-                { -1, -1, -1,  0, -1,  0, -1,  0,  0, -1, -3,  0,  0,  0, -1 },
-                { -1,  0,  0,  0, -1,  0, -1,  0,  0, -1, -1, -1,  0,  0, -1 },
-                { -1,  0,  0,  0, -1,  0,  0,  0,  0, -1,  0,  0,  0,  0, -1 },
-                { -1,  0,  0,  0, -1,  0,  0,  0,  0, -1,  0,  0,  0,  0, -1 },
-                { -1,  0,  0,  0, -1, -1, -1, -1, -1, -1,  0,  0,  0,  0, -1 },
-                { -1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0, -1 },
-                { -1,  0,  0,  0, -1, -1, -1, -1, -1, -1, -1,  0,  0,  0, -1 },
-                { -1,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0, -1 },
-                { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 }
+                {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1},
+                {-1, -2, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1},
+                {-1, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, -1},
+                {-1, 0, 0, 0, -1, 0, 0, -1, 0, 0, 0, 0, 0, 0, -1},
+                {-1, 0, 0, 0, -1, 0, -1, -1, -1, -1, 0, 0, 0, 0, -1},
+                {-1, 0, 0, 0, -1, 0, -1, 0, 0, -1, 0, 0, 0, 0, -1},
+                {-1, -1, -1, 0, -1, 0, -1, 0, 0, -1, -3, 0, 0, 0, -1},
+                {-1, 0, 0, 0, -1, 0, -1, 0, 0, -1, -1, -1, 0, 0, -1},
+                {-1, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1},
+                {-1, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1},
+                {-1, 0, 0, 0, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, -1},
+                {-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1},
+                {-1, 0, 0, 0, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, -1},
+                {-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1},
+                {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1}
         };
 
         this.map = map;
@@ -172,6 +143,7 @@ class MapPrinter {
     }
 }
 
+
 class WaveAlgorithm {
     int[][] map;
 
@@ -189,7 +161,7 @@ class WaveAlgorithm {
 
             if (map[p.x - 1][p.y] == -3) {
                 //System.out.println(p.x, p.y + "I am here");
-                System.out.println(queue);
+                // System.out.println(queue);
                 queue.clear();
                 break;
             }
@@ -206,18 +178,10 @@ class WaveAlgorithm {
                 queue.add(new Point2D(p.x, p.y - 1));
                 map[p.x][p.y - 1] = map[p.x][p.y] + 1;
             }
-            if(map[p.x + 1][p.y] == -3) {
-                System.out.println(p.x + 1);
-
-                System.out.println(p.y);
-                //lee.Colorize(new Point2D(1, 1));
-
-                //getRoad(new Point2D(p.x + 1, p.y));
-                System.out.println(queue);
+            if (map[p.x + 1][p.y] == -3) {
+                //getRoad(new Point2D(p.x + 1, p.y)); // delete -3 element
                 queue.clear();
                 return new Point2D(p.x + 1, p.y);
-                //getRoad(p.x, p.y);
-                //break;
             }
             if (map[p.x + 1][p.y] == 0) {
                 queue.add(new Point2D(p.x + 1, p.y));
@@ -271,10 +235,8 @@ class WaveAlgorithm {
         }
 
 
-
         return road;
     }
-
 
 
     public void createWay(ArrayList<Point2D> way) {
@@ -286,8 +248,6 @@ class WaveAlgorithm {
         }
         System.out.println(way);
     }
-
-
 
 
 }
