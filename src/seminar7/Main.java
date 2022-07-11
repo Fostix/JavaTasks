@@ -5,6 +5,7 @@ import java.util.Deque;
 import java.util.Objects;
 
 public class Main {
+    // Проверять поразрядно
 
     private static String checkOperationAndReplace(String s) {
         switch (s) {
