@@ -1,7 +1,11 @@
 package seminar5Homework;
+
+import java.io.PrintStream;
+
 import static seminar5.CheckBracketsDequeMethod.checkBrackets;
 
 public class Main {
+
     public static void main(String[] args) {
 
         long timer = System.nanoTime();
@@ -30,8 +34,6 @@ public class Main {
         System.out.printf("infix: %s\npostfix: %s \nresult %s\n", infix, postfix, result); // StringBuilder faster than String!!
 
 
-
-
         System.out.println("----------------------------------------------------------------");
 
         infix = "(34.2343+2343.34)^sin(2)";
@@ -45,8 +47,20 @@ public class Main {
         System.out.printf("infix: %s\npostfix: %s \nresult %s\n", infix, postfix, result); // StringBuilder faster than String!!
 
 
+        System.out.println("----------------------------------------------------------------");
+
+        infix = "2 + 2";
+
+        if (checkBrackets(infix)) {
+            postfix = InfixToPostfix.infixToPostfix(infix);
+            result = Solve.solveMath(postfix);
+        }
 
 
+        System.out.printf("infix: %s\npostfix: %s \nresult %s\n", infix, postfix, result); // StringBuilder faster than String!!
+
+        Integer check = Math.toIntExact(Math.round(Double.parseDouble(result)));
+        System.out.println(check instanceof Integer);
 
     }
 }

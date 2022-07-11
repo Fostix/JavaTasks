@@ -14,7 +14,7 @@ public class InfixToPostfix {
             default -> 0;
         };
     }
-    protected static String infixToPostfix(String infixText) {
+    public static String infixToPostfix(String infixText) {
 
         infixText = infixText.replace(" ", "");
         infixText = infixText.replace("Sin", "S");
