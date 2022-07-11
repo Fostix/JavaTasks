@@ -33,39 +33,63 @@ public class LookingForNumbers {
         }
     }
 
+    private char invertOperation(char forCheck) {
+        switch (forCheck) {
+            case '+':
+                return '-';
+            case '-':
+                return '+';
+            case '/':
+                return '*';
+            default:
+                return '/';
+        }
+    }
+
+
     public void distributor() {
 
         char[] symbols = expression.toCharArray();
         char[] numbers = new char[30];
-
         int j = 0;
         int k = 0;
         for (int i = 0; i < symbols.length; i++) {
-            System.out.println(k);
-
 
             if((noSpace(symbols[i]) && !checkOperation(symbols[i])) && symbols[i] != '=') {
-                System.out.println(symbols);
                 numbers[k] = symbols[i];
                 k++;
-
             } else if(checkOperation(symbols[i]) || symbols[i] == '=') { // (!checkOperation(symbols[i]) && symbols[i + 1] == '=') || checkOperation(symbols[i + 1])
                 j += 10;
                 k = j;
-                System.out.println(k);
             }
             if(checkOperation(symbols[i])) {
                 this.operation = symbols[i];
             }
-            System.out.println(i + "   - i");
-            System.out.println(j + "   - j");
-            System.out.println(k + "   - k");
         }
 
-        for (var n: numbers) {
-            System.out.print(n);
+//        for (var n : numbers) {
+//            System.out.print(n);
+//        }
+        int length = numbers.length - 1;
+        // temp in brain в уме!!
+        int temp;
+
+        for (int i = length; i >= 20; i--) { // до 20 чтобы не вышел за размеры массива
+            // как то надо это настроить что бы складывало.
+            if (Character.isDigit(numbers[i])) {
+                System.out.println("is digit equal");
+            }
+            if (Character.isDigit(numbers[i - 10])) {
+                System.out.println("isDigit second");
+            }
+            if (Character.isDigit(numbers[i - 20])) {
+                System.out.println("is digit first");
+            }
+//            System.out.println(numbers[i] + "equal"); // equal
+//            System.out.println(numbers[i - 10] + "second"); // second
+//            System.out.println(numbers[i - 20] + "first"); // first
         }
-        System.out.println();
+        System.out.println(operation);
 
 
 
