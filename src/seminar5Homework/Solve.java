@@ -16,7 +16,7 @@ public class Solve {
         }
     }
 
-    protected static String solveMath(String solve) {
+    public static String solveMath(String solve) {
         String[] postfix = solve.split(" ");
         Stack<String> lifo = new Stack<>();
 

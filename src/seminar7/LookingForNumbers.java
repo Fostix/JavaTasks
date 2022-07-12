@@ -2,6 +2,7 @@ package seminar7;
 
 
 import seminar5Homework.InfixToPostfix;
+import seminar5Homework.Solve;
 
 public class LookingForNumbers {
     private String expression;
@@ -83,35 +84,46 @@ public class LookingForNumbers {
             // search where digit then use operation else every symbol question to can't solve
             // use Solve method infixToPostfix
             if (Character.isDigit(numbers[i]) && Character.isDigit(numbers[i - 10])) {
-                System.out.println("here were");
-                char oper = invertOperation(operation);
-                System.out.println(oper);
-
-
-                // InfixToPostfix.infixToPostfix();
+//                System.out.println("here were");
+//                char oper = invertOperation(operation);
+//                System.out.println(oper);
+                // перевести в строку и сконкотенировать, и отправить решать другому классу(методу)
+                String str = String.valueOf(numbers[i]);
+                str = str += " " + invertOperation(operation) + " " + numbers[i -10];
+                String postfix = InfixToPostfix.infixToPostfix(str);
+                // String result = Solve.solveMath(postfix);
+                String result = String.valueOf(Math.toIntExact(Math.round(Double.parseDouble(Solve.solveMath(postfix)))));
+                // result then need check if negative number or more than ten!!
+                // System.out.println(Character.isDigit(Integer.parseInt(result)) + " dsgrsdf");
+                numbers[i - 20] = result.charAt(0);
+                System.out.println(result + " result");
+                System.out.println(numbers[i - 20] + " nooo");
 
 
                 //Integer.parseInt(String.valueOf(numbers[i])) - Integer.parseInt(String.valueOf(numbers[i - 10]));
                 System.out.println(Integer.parseInt(String.valueOf(numbers[i])) - Integer.parseInt(String.valueOf(numbers[i - 10])));
             } else if (Character.isDigit(numbers[i]) && Character.isDigit(numbers[i - 20])) {
                 char oper = invertOperation(operation);
-                System.out.println("where here");
-                System.out.println(Integer.parseInt(String.valueOf(numbers[i])) - Integer.parseInt(String.valueOf(numbers[i - 20])));
+                // System.out.println("where here");
+                // System.out.println(Integer.parseInt(String.valueOf(numbers[i])) - Integer.parseInt(String.valueOf(numbers[i - 20])));
             }
             if (Character.isDigit(numbers[i])) {
-                System.out.println("is digit equal");
+                //System.out.println("is digit equal");
             }
             if (Character.isDigit(numbers[i - 10])) {
-                System.out.println("isDigit second");
+                //System.out.println("isDigit second");
             }
             if (Character.isDigit(numbers[i - 20])) {
-                System.out.println("is digit first");
+                //System.out.println("is digit first");
             }
 //            System.out.println(numbers[i] + "equal"); // equal
 //            System.out.println(numbers[i - 10] + "second"); // second
 //            System.out.println(numbers[i - 20] + "first"); // first
         }
-
+        for (char vvv: numbers) {
+            System.out.print(vvv);
+        }
+        System.out.println();
 
 
     }
