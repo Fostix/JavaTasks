@@ -11,7 +11,7 @@ public class Program {
         System.out.println(new LookingForNumbers(expression));
 
         System.out.println("-----------------------------------------------");
-        expression = "?? - 72 = 125";
+        expression = "197 - 72 = 125";
         //LookingForNumbers f = new LookingForNumbers(expression);
         System.out.println(new LookingForNumbers(expression));
     }
