@@ -59,7 +59,7 @@ public class LookingForNumbers {
         for (int i = 0; i < symbols.length; i++) {
 
             if((noSpace(symbols[i]) && !checkOperation(symbols[i])) && symbols[i] != '=') {
-                numbers[k] = symbols[i];
+                numbers[29 - k] = symbols[i];
                 k++;
             } else if(checkOperation(symbols[i]) || symbols[i] == '=') { // (!checkOperation(symbols[i]) && symbols[i + 1] == '=') || checkOperation(symbols[i + 1])
                 j += 10;
@@ -70,9 +70,10 @@ public class LookingForNumbers {
             }
         }
 
-//        for (var n : numbers) {
-//            System.out.print(n);
-//        }
+        for (var n : numbers) {
+            System.out.print(n);
+        }
+        System.out.println();
         int length = numbers.length - 1;
         // temp in brain в уме!!
         int temp;
