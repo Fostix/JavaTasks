@@ -94,14 +94,7 @@ public class LookingForNumbers {
                 this.operation = symbols[i];
             }
         }
-
-        for (var n : numbers) {
-            System.out.print(n);
-        }
-        System.out.println();
         int length = numbers.length / 3;
-        // temp in brain в уме!!
-        int temp;
 
         for (int i = 0; i < length; i++) {
             if (Character.isDigit(numbers[i]) && Character.isDigit(numbers[i + 10])) {
@@ -109,9 +102,6 @@ public class LookingForNumbers {
                 // быть внимательнее в методе такого типа нужно перед вызовом метода сделать реверс обязательно!!
                 /// !!!!!
                 // result then need check if negative number or more than ten!!
-                System.out.println(result + " result");
-
-
 
                 numbers[i + 20] = checkDigit(result);
                 continue;
@@ -119,7 +109,6 @@ public class LookingForNumbers {
             } else if (Character.isDigit(numbers[i]) && Character.isDigit(numbers[i + 20])) {
                 String result = solveExpression(numbers[i], invertOperation(operation), numbers[i + 20]);
                 numbers[i + 10] = checkDigit(result);
-                // numbers[i + 10] = result.charAt(0);
 
                 continue;
             }  else if ((Character.isDigit(numbers[i]) && !Character.isDigit(numbers[i + 10])) && !Character.isDigit(numbers[i + 20]))  {
@@ -130,45 +119,32 @@ public class LookingForNumbers {
                 numbers[i + 10] = checkDigit(result);
 
             }
-
-
-
-
-
-
-
-//            if (Character.isDigit(numbers[i])) {
-//                System.out.println("is digit equal");
-//            }
-//            if (Character.isDigit(numbers[i + 10])) {
-//                System.out.println("isDigit second");
-//            }
-//            if (Character.isDigit(numbers[i + 20])) {
-//                System.out.println("is digit first");
-//            }
-//            System.out.println(numbers[i] + "equal"); // equal
-//            System.out.println(numbers[i + 10] + "second"); // second
-//            System.out.println(numbers[i + 20] + "first"); // first
         }
-        for (char vvv: numbers) {
-            System.out.print(vvv);
+
+
+
+
+        String firstNumber = "";
+        String secondNumber = "";
+        String equal = "";
+
+
+        for (int i = 0; i < length; i++) {
+            if (Character.isDigit(numbers[i])) {
+                equal = numbers[i] + equal;
+            } if (Character.isDigit(numbers[i + 10])) {
+                secondNumber = numbers[i + 10] + secondNumber;
+            } if (Character.isDigit(numbers[i + 20])) {
+                firstNumber = numbers[i + 20] + firstNumber;
+            }
+
         }
-        System.out.println();
-
-
-
+        expression += "\n" + Integer.parseInt(firstNumber) + " " + operation + " " + Integer.parseInt(secondNumber) + " = " + Integer.parseInt(equal);
 
     }
 
     @Override
     public String toString() {
-//        String forCheck = "";
-//        while (!firstNumber.isEmpty()) {
-//            forCheck = String.valueOf(firstNumber.spliterator());
-//            // firstNumber.
-//            firstNumber.removeFirst();
-//            System.out.println("here");
-//        }
-        return String.format("%s, operation %c", this.expression, this.operation);
+        return String.format("%s", this.expression);
     }
 }
