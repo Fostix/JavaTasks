@@ -94,16 +94,20 @@ public class LookingForNumbers {
                 // String result = Solve.solveMath(postfix);
                 String result = String.valueOf(Math.toIntExact(Math.round(Double.parseDouble(Solve.solveMath(postfix)))));
                 // result then need check if negative number or more than ten!!
-                // System.out.println(Character.isDigit(Integer.parseInt(result)) + " dsgrsdf");
                 numbers[i - 20] = result.charAt(0);
-                System.out.println(result + " result");
-                System.out.println(numbers[i - 20] + " nooo");
 
 
                 //Integer.parseInt(String.valueOf(numbers[i])) - Integer.parseInt(String.valueOf(numbers[i - 10]));
-                System.out.println(Integer.parseInt(String.valueOf(numbers[i])) - Integer.parseInt(String.valueOf(numbers[i - 10])));
+                // System.out.println(Integer.parseInt(String.valueOf(numbers[i])) - Integer.parseInt(String.valueOf(numbers[i - 10])));
             } else if (Character.isDigit(numbers[i]) && Character.isDigit(numbers[i - 20])) {
-                char oper = invertOperation(operation);
+                String str = String.valueOf(numbers[i]);
+                str = str += " " + invertOperation(operation) + " " + numbers[i - 20];
+                //System.out.println(str);
+                String postfix = InfixToPostfix.infixToPostfix(str);
+                // String result = Solve.solveMath(postfix);
+                String result = String.valueOf(Math.toIntExact(Math.round(Double.parseDouble(Solve.solveMath(postfix)))));
+                // result then need check if negative number or more than ten!!
+                numbers[i - 10] = result.charAt(0);
                 // System.out.println("where here");
                 // System.out.println(Integer.parseInt(String.valueOf(numbers[i])) - Integer.parseInt(String.valueOf(numbers[i - 20])));
             }
