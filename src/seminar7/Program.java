@@ -9,18 +9,20 @@ public class Program {
         String expression = "";
 
 
-        int count = 5000000;
+        int count = 1;
         long[] timers = new long[count];
         for (int i = 0; i < count; i++) {
             long time = System.nanoTime();
             expression = "2? + ?5 = 69";
-            new LookingForNumbers(expression);
-            // System.out.println(new LookingForNumbers(expression));
+            //new LookingForNumbers(expression);
+            System.out.println(new LookingForNumbers(expression));
             timers[i] = (System.nanoTime() - time);
         }
         System.out.println(Arrays.stream(timers).min() + " - min time ");
         System.out.println(Arrays.stream(timers).max() + " - max time ");
         System.out.println(Arrays.stream(timers).average() + " - average result ");
+
+
 
 
 
