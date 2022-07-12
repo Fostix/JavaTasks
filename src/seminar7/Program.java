@@ -11,9 +11,16 @@ public class Program {
         System.out.println(new LookingForNumbers(expression));
 
         System.out.println("-----------------------------------------------");
-        expression = "197 - 72 = 125";
+        expression = " - 72 = 125";
         //LookingForNumbers f = new LookingForNumbers(expression);
         System.out.println(new LookingForNumbers(expression));
+
+        System.out.println("-----------------------------------------------");
+        expression = "197 - ?? = 125";
+        //LookingForNumbers f = new LookingForNumbers(expression);
+        System.out.println(new LookingForNumbers(expression));
+
+
     }
 }
 //+Задано уравнение вида q + w = e, q, w, e >= 0.
