@@ -9,6 +9,10 @@ public class Program {
         //LookingForNumbers f = new LookingForNumbers(expression);
         System.out.println(new LookingForNumbers(expression));
 
+        System.out.println("-----------------------------------------------");
+        expression = "2? + ?5 = 69";
+        //LookingForNumbers f = new LookingForNumbers(expression);
+        System.out.println(new LookingForNumbers(expression));
     }
 }
 //+Задано уравнение вида q + w = e, q, w, e >= 0.
