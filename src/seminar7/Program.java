@@ -5,12 +5,13 @@ import java.util.List;
 
 public class Program {
     public static void main(String[] args) {
+        // work only with + or -.
         String expression = "2? + ?5 = 69";
         //LookingForNumbers f = new LookingForNumbers(expression);
         System.out.println(new LookingForNumbers(expression));
 
         System.out.println("-----------------------------------------------");
-        expression = "2? + ?5 = 69";
+        expression = "?? - 72 = 125";
         //LookingForNumbers f = new LookingForNumbers(expression);
         System.out.println(new LookingForNumbers(expression));
     }

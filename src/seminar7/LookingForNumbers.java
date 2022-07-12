@@ -84,32 +84,24 @@ public class LookingForNumbers {
             // search where digit then use operation else every symbol question to can't solve
             // use Solve method infixToPostfix
             if (Character.isDigit(numbers[i]) && Character.isDigit(numbers[i - 10])) {
-//                System.out.println("here were");
-//                char oper = invertOperation(operation);
-//                System.out.println(oper);
                 // перевести в строку и сконкотенировать, и отправить решать другому классу(методу)
                 String str = String.valueOf(numbers[i]);
                 str = str += " " + invertOperation(operation) + " " + numbers[i -10];
+                System.out.println(str + " str");
                 String postfix = InfixToPostfix.infixToPostfix(str);
-                // String result = Solve.solveMath(postfix);
                 String result = String.valueOf(Math.toIntExact(Math.round(Double.parseDouble(Solve.solveMath(postfix)))));
                 // result then need check if negative number or more than ten!!
+                System.out.println(result + " result");
                 numbers[i - 20] = result.charAt(0);
 
 
-                //Integer.parseInt(String.valueOf(numbers[i])) - Integer.parseInt(String.valueOf(numbers[i - 10]));
-                // System.out.println(Integer.parseInt(String.valueOf(numbers[i])) - Integer.parseInt(String.valueOf(numbers[i - 10])));
             } else if (Character.isDigit(numbers[i]) && Character.isDigit(numbers[i - 20])) {
                 String str = String.valueOf(numbers[i]);
                 str = str += " " + invertOperation(operation) + " " + numbers[i - 20];
-                //System.out.println(str);
                 String postfix = InfixToPostfix.infixToPostfix(str);
-                // String result = Solve.solveMath(postfix);
                 String result = String.valueOf(Math.toIntExact(Math.round(Double.parseDouble(Solve.solveMath(postfix)))));
                 // result then need check if negative number or more than ten!!
                 numbers[i - 10] = result.charAt(0);
-                // System.out.println("where here");
-                // System.out.println(Integer.parseInt(String.valueOf(numbers[i])) - Integer.parseInt(String.valueOf(numbers[i - 20])));
             }
             if (Character.isDigit(numbers[i])) {
                 //System.out.println("is digit equal");
