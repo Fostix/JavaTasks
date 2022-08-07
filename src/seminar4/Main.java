@@ -3,7 +3,6 @@ package seminar4;
 
 public class Main {
     public static void main(String[] args) {
-
         Employee people = new Employee("Фамильяров", "Именный", "Отчествович", 4, "Рыболов");
         Employee people1 = new Employee("Иванов", "Иван", "Иваныч", 1, "Крысолов");
         Employee people2 = new Employee("Подмышкин", "Борис", "Морисович", 2, "Мышолов");
@@ -13,23 +12,12 @@ public class Main {
         System.out.println(people2);
         System.out.println(people3);
 
-
-
         Managers manager = new Managers("Боссов", "Маруся", "Батуткин", 1, "Скамейка", 1);
         manager.addSubordinates(people);
         manager.addSubordinates(people1);
         System.out.println(manager);
-
-
-
-
-
-
-
     }
 }
-
-
 //    Создать класс служащий(сотрудник), содержащий следующие поля:
 //        1. Фамилия
 //        2. Имя

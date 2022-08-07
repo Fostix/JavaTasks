@@ -5,14 +5,10 @@ import java.util.random.RandomGenerator;
 
 public class Main {
     public static void main(String[] args) {
-
         int k = 2;
 
         int coef = new Random().nextInt(0, 100);
         System.out.println(coef);
-
-
-
     }
 }
 

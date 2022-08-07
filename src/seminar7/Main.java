@@ -6,7 +6,6 @@ import java.util.Objects;
 
 public class Main {
     // Проверять поразрядно
-
     private static String checkOperationAndReplace(String s) {
         switch (s) {
             case "+":
@@ -19,7 +18,6 @@ public class Main {
         }
         return s;
     }
-
     private static Deque<String> parseString(String expression) {
         String[] elem = expression.split(" ");
 
@@ -31,8 +29,6 @@ public class Main {
 
         return dq;
     }
-
-
     private static void solve(Deque<String> dq) {
         //System.out.println(dq.pop()); // equals
         assert dq.peek() != null;
@@ -47,9 +43,6 @@ public class Main {
             if(Objects.equals(operation, "-")) {
                 equal -= it;
             }
-
-
-
         }
         System.out.println();
         System.out.println(equal);
@@ -59,17 +52,10 @@ public class Main {
 //            System.out.println(item.replace("?", "0"));
 //
 //        }
-
-
-
-
 // TO DO change ? to number 0 than result change in equals numbers each??
         // first equals
     // replace ? to numbers which equaled
     }
-
-
-
     public static void main(String[] args) {
         String expression = "2? + ?5 = 69";
 

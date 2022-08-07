@@ -2,8 +2,6 @@ package seminar2;
 import java.util.ArrayList;
 
 public class Main {
-
-
         public static void TowersOfHanoi ( int quantity, int from, int to, int buf_peg){
             if (quantity != 0) {
                 TowersOfHanoi(quantity - 1, from, buf_peg, to);
@@ -11,15 +9,7 @@ public class Main {
                 TowersOfHanoi(quantity - 1, buf_peg, to, from);
             }
         }
-
-
-
     public static void main(String[] args) {
-
-
-
-
-
         long startTimeTest = System.currentTimeMillis();
         int num_of_disks = 11;
 
@@ -35,8 +25,6 @@ public class Main {
         ob.tohIterative(num_of_disks, src, aux, dest);
         long endTimeTest = System.currentTimeMillis();
         System.out.println(endTimeTest - startTimeTest);
-
-
     }
 }
 //    Написать программу, показывающую

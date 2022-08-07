@@ -4,7 +4,6 @@ import javax.print.attribute.standard.PresentationDirection;
 import java.util.Objects;
 
 public class Program1 {
-
     private static String checkOperationAndReplace(String s) {
         switch (s) {
             case "+":
@@ -17,7 +16,6 @@ public class Program1 {
         }
         return s;
     }
-
     public static void main(String[] args) {
         String exp = "?1 + 4? = 4?";
         String a = exp.replace("?", "0"); // To Do I can replace operands too.
@@ -36,11 +34,7 @@ public class Program1 {
                 res = equal - res;
                 //Character.toString(res);
         }
-
-
         System.out.println(res);
-
-
 //        System.out.println(item1);
 //        //System.out.println(operand);
 //        System.out.println(item2);

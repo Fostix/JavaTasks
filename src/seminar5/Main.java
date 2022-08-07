@@ -4,11 +4,8 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-
-
         int count = 1_000_000_0;
         long[] firstMethodTimers = new long[count];
-
 
         for (int i = 0; i < count; i++) {
             long firstMethodTime = System.nanoTime();
@@ -34,14 +31,11 @@ public class Main {
             CheckBracketsDequeMethod.checkBrackets("()");
             CheckBracketsDequeMethod.checkBrackets(")");
             firstMethodTimers[i] = -firstMethodTime + System.nanoTime();
-
         }
-
 
         System.out.println(Arrays.stream(firstMethodTimers).min() + " min");
         System.out.println(Arrays.stream(firstMethodTimers).max() + " max");
         System.out.println(Arrays.stream(firstMethodTimers).average() + " average");
-
 
         Arrays.sort(firstMethodTimers);
         double firstMethodMedian;
@@ -66,7 +60,6 @@ public class Main {
 //        System.out.println(CheckNumbersMethod.checkingBrackets("("));
 //        System.out.println(CheckNumbersMethod.checkingBrackets("()"));
 //        System.out.println(CheckNumbersMethod.checkingBrackets(")"));
-
             CheckBracketsNumbersMethod.checkingBrackets("a+(d*3)");
             CheckBracketsNumbersMethod.checkingBrackets("[a+(1*3)");
             CheckBracketsNumbersMethod.checkingBrackets("[6+(3*3)]");
@@ -77,10 +70,7 @@ public class Main {
             CheckBracketsNumbersMethod.checkingBrackets("(");
             CheckBracketsNumbersMethod.checkingBrackets("()");
             CheckBracketsNumbersMethod.checkingBrackets(")");
-
-
             secondMethodTimers[i] = -secondMethodTime + System.nanoTime();
-
         }
 
         System.out.println(Arrays.stream(secondMethodTimers).min() + " min");
@@ -93,8 +83,6 @@ public class Main {
             secondMethodMedian = ((double)secondMethodTimers[secondMethodTimers.length / 2] + (double) secondMethodTimers[secondMethodTimers.length / 2 - 1]) / 2;
         else secondMethodMedian = (double) secondMethodTimers[secondMethodTimers.length / 2];
         System.out.println(secondMethodMedian + " median");
-
-
 
 //        int[] num = new int[]{2, 6, 9, 3};
 //        Arrays.sort(num);
