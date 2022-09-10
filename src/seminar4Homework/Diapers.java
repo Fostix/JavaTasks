@@ -7,7 +7,6 @@ public class Diapers extends HygieneItem{
     protected int maximumWeight;
     protected String type;
 
-
     /**
      * Создать
      *
@@ -28,7 +27,6 @@ public class Diapers extends HygieneItem{
         this.maximumWeight = maximumWeight;
         this.type = type;
     }
-
 
     @Override
     public String toString() {

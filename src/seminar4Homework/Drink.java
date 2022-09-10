@@ -2,7 +2,6 @@ package seminar4Homework;
 
 public class Drink extends Food{
 
-
     /**
      * Создать
      *
@@ -17,7 +16,6 @@ public class Drink extends Food{
         super(name, price, count, magnitude, expirationDate);
 
     }
-
 
     @Override
     public String toString() {

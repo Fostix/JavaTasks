@@ -53,7 +53,6 @@ public class AllFields extends BaseProduct{
         this.numberOfLayers = numberOfLayers;
     }
 
-
     @Override
     public String toString() {
         return super.toString() + String.format(" , Минимальный возраст: %d, гипоаллергенный: %b," +

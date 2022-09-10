@@ -8,7 +8,6 @@ public class BaseProduct {
     protected double count;
     protected String unitOfMeasurement;
 
-
     /**
      * Создать
      * @param name Название
