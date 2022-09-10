@@ -34,7 +34,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Program01ErrorCodes">
+  <component name="RunManager" selected="Application.Lesson1TaskPolynomial.Main">
     <configuration name="Lesson1TaskPolynomial.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson1TaskPolynomial.Main" />
       <module name="Seminars" />
@@ -100,13 +100,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Lesson1TaskPolynomial.Main" />
+      <item itemvalue="Application.Program01ErrorCodes" />
+      <item itemvalue="Application.Program02" />
+      <item itemvalue="Application.Program03ThrowException" />
+      <item itemvalue="Application.Program04ErrorCode" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Program01ErrorCodes" />
-        <item itemvalue="Application.Program03ThrowException" />
         <item itemvalue="Application.Lesson1TaskPolynomial.Main" />
-        <item itemvalue="Application.Program02" />
+        <item itemvalue="Application.Program03ThrowException" />
         <item itemvalue="Application.Program04ErrorCode" />
+        <item itemvalue="Application.Program02" />
+        <item itemvalue="Application.Program01ErrorCodes" />
       </list>
     </recent_temporary>
   </component>
