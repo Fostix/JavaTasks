@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Program02 {
     public static void main(String[] args) {
+        System.out.println("hello world");
         int[] array = {1,2,4,6,6,3,1,6,9,5,1,34,87,9,43,23,76,9,54,2,45};
         int[] array1 = {1,2,4,6,6,3};
         int[] array2 = new int[10000000];
