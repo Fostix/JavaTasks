@@ -4,20 +4,32 @@ import java.util.Random;
 
 public class Program3 {
     public static void main(String[] args) {
+        //#region not error
         int[] arr = new int[10];
-        int[] arr2 = new int[9];
-        fillArray(arr);
-        fillArray(arr2);
+        int[] arr2 = new int[10];
+        fillArray(arr, 10);
+        fillArray(arr2, 10);
         int[] array = minus(arr, arr2);
         showArray(array);
+        //#endregion
+        System.out.println();
+        //#region have error length
+        int[] arr3 = new int[10];
+        int[] arr4 = new int[9];
+        fillArray(arr3, 10);
+        fillArray(arr4, 10);
+        int[] array1 = minus(arr3, arr4);
+        showArray(array1);
+        //#endregion
     }
 
     public static int[] minus(int[] firstArr, int[] secondArr) {
         int lengthFirstArr = firstArr.length;
         int[] differenceArr = new int[lengthFirstArr];
 
-        if (lengthFirstArr != secondArr.length)
-            throw new RuntimeException("array lengths are not equal");
+        if (lengthFirstArr != secondArr.length) {
+            System.out.println("array lengths are not equal");
+        }
 
         for (int i = 0; i < lengthFirstArr; i++) {
             differenceArr[i] = firstArr[i] - secondArr[i];
@@ -25,10 +37,17 @@ public class Program3 {
         return differenceArr;
     }
 
-    public static void fillArray(int[] array) {
+    public static void fillArray(int[] array, int min, int max) {
         Random mrRandom = new Random();
         for (int i = 0; i < array.length; i++) {
-            array[i] = mrRandom.nextInt(10);
+            array[i] = mrRandom.nextInt(min, max);
+        }
+    }
+
+    public static void fillArray(int[] array, int max) {
+        Random mrRandom = new Random();
+        for (int i = 0; i < array.length; i++) {
+            array[i] = mrRandom.nextInt(max);
         }
     }
 

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="" />
+    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExcepcionsSeminar1/Homework/Program3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExcepcionsSeminar1/Homework/Program3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program3.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +31,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program1.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program02.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program03ThrowException.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Lesson1TaskPolynomial/Polynomial.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/seminar1HomeWork/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/seminar6/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/seminar6Homework/first/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/seminar6Homework/second/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/seminar6Homework/second/WaveAlgorithm.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/seminar7/Program.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/seminar7/Program1.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -75,55 +89,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program04ErrorCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Program05MoreExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="MAIN_CLASS_NAME" value="ExcepcionsSeminar1.Program04ErrorCode" />
+      <option name="MAIN_CLASS_NAME" value="ExcepcionsSeminar1.Program05MoreExceptions" />
       <module name="Seminars" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ExcepcionsSeminar1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Program1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="MAIN_CLASS_NAME" value="ExcepcionsSeminar1.Homework.Program1" />
-      <module name="Seminars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExcepcionsSeminar1.Homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Program1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="MAIN_CLASS_NAME" value="ExcepcionsSeminar1.Homework.Program1" />
-      <module name="Seminars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExcepcionsSeminar1.Homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Program1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="MAIN_CLASS_NAME" value="ExcepcionsSeminar1.Homework.Program1" />
-      <module name="Seminars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExcepcionsSeminar1.Homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,6 +117,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Program4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="MAIN_CLASS_NAME" value="ExcepcionsSeminar1.Homework.Program4" />
+      <module name="Seminars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExcepcionsSeminar1.Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="MAIN_CLASS_NAME" value="seminar1Task1.Main" />
@@ -153,21 +139,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="seminar6Homework.second.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="MAIN_CLASS_NAME" value="seminar6Homework.second.Main" />
+      <module name="Seminars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar6Homework.second.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seminar7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="MAIN_CLASS_NAME" value="seminar7.Main" />
+      <module name="Seminars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminar7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Program04ErrorCode" />
       <item itemvalue="Application.Program3" />
-      <item itemvalue="Application.Program1" />
-      <item itemvalue="Application.Program1 (1)" />
-      <item itemvalue="Application.Program1 (2)" />
+      <item itemvalue="Application.Program4" />
+      <item itemvalue="Application.seminar7.Main" />
+      <item itemvalue="Application.Program05MoreExceptions" />
+      <item itemvalue="Application.seminar6Homework.second.Main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Program3" />
-        <item itemvalue="Application.Program04ErrorCode" />
-        <item itemvalue="Application.Program1" />
-        <item itemvalue="Application.Program1 (2)" />
-        <item itemvalue="Application.Program1 (1)" />
+        <item itemvalue="Application.Program4" />
+        <item itemvalue="Application.seminar6Homework.second.Main" />
+        <item itemvalue="Application.seminar7.Main" />
+        <item itemvalue="Application.Program05MoreExceptions" />
       </list>
     </recent_temporary>
   </component>
