@@ -15,7 +15,7 @@ public class Program1 {
     }
     public static void notFind() {
         try {
-            FileReader r = new FileReader("fd");
+            FileReader r = new FileReader("file.txt");
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }

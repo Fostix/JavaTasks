@@ -51,7 +51,20 @@ public class Program3 {
         }
     }
 
+    public static void fillArray(Integer[] array, int max) {
+        Random mrRandom = new Random();
+        for (int i = 0; i < array.length; i++) {
+            array[i] = mrRandom.nextInt(max);
+        }
+    }
+
     public static void showArray(int[] array) {
+        for (int j : array) {
+            System.out.printf("%d ", j);
+        }
+    }
+
+    public static void showArray(Integer[] array) {
         for (int j : array) {
             System.out.printf("%d ", j);
         }
