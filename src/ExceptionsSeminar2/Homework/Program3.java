@@ -14,7 +14,7 @@ public class Program3 {
         } catch (IndexOutOfBoundsException ex) {
             System.out.println("Массив выходит за пределы своего размера!");
         } catch (NullPointerException ex) {
-            System.out.println("Указатель не может указывать на null!");
+            System.out.println("Указатель не может указывать на null!" + ex.getClass().getSimpleName());
         } catch (Throwable ex) {
             System.out.println("Что-то пошло не так..." + ex);
         }

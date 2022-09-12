@@ -9,14 +9,19 @@ public class Program3 {
             String[] strings = {"asdf", "asdf"};
             String strings1 = strings[2];
             test();
-            int a= 1 / 0;
+            int a = 1 / 0;
             inputStream = new FileInputStream("asdfgdsaf");
-        } catch (Throwable e ) {
+        } catch (ArrayIndexOutOfBoundsException | StackOverflowError | IOException e) {
             e.printStackTrace();
-//        } catch (error) {
-//            System.out.println("asdfasdfsa");
+            //e.printStackTrace();
+//        } catch (ArrayIndexOutOfBoundsException e) {
+//            System.out.println(e);
+//        } catch (StackOverflowError e) {
+//            System.out.println("Stack overflow error");
+//        } catch (IOException e) {
+//            System.out.println(e);
         } finally {
-            System.out.println("I'm done");
+            System.out.println("I still completed");
         }
         System.out.println("I live!");
     }
@@ -26,6 +31,10 @@ public class Program3 {
         file.createNewFile();
         FileReader reader = new FileReader(file);
         reader.read();
-        test();
+        try {
+            test();
+        } catch (StackOverflowError e) {
+            System.out.println(e.getClass().getSimpleName());
+        }
     }
 }
