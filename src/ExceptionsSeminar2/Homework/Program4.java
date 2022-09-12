@@ -4,18 +4,29 @@ import java.util.Scanner;
 
 public class Program4 {
     public static void main(String[] args) {
-        getFloat();
+        checkForEmptyString();
+        checkForEmptyStringM();
     }
-    public static void getFloat() {
+    public static void checkForEmptyString() {
         String text = null;
         Scanner scanner = new Scanner(System.in);
-        do {
-            try {
-                text = scanner.nextLine();
-                System.out.println(text.length());
-            } catch (Exception e) {
-                System.out.println(" " + e.getClass().getSimpleName());
+        text = scanner.nextLine();
+        if (text.isEmpty())
+            throw new RuntimeException("you can't enter blank lines");
+    }
+
+    public static void checkForEmptyStringM() {
+        String text = null;
+        Scanner scanner = new Scanner(System.in);
+        text = scanner.nextLine();
+        boolean flag = true;
+        for (int i = 0; i < text.length(); i++) {
+            if (text.charAt(i) != ' ') {
+                flag = false;
             }
-        } while (text.isEmpty());
+        }
+        if (flag) {
+            throw new RuntimeException("you can't enter blank lines");
+        }
     }
 }

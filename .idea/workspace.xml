@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExceptionsSeminar2/Program1getNumberInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExcepcionsSeminar1/Homework/Program1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExcepcionsSeminar1/Homework/Program1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExcepcionsSeminar1/Homework/Program2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExcepcionsSeminar1/Homework/Program2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExcepcionsSeminar1/Homework/Program3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExcepcionsSeminar1/Homework/Program3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExcepcionsSeminar1/Homework/Program4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExcepcionsSeminar1/Homework/Program4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExcepcionsSeminar1/Program06checkNullInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExcepcionsSeminar1/Program06checkNullInArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Program1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExcepcionsSeminar1/Program06checkNullInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExcepcionsSeminar1/Program06checkNullInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExcepcionsSeminar1/Program07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExcepcionsSeminar1/Program07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionsSeminar2/Program1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Homework/Program1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Homework/Program1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Homework/Program4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Homework/Program4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionsSeminar2/Homework/Program4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionsSeminar2/Homework/Program4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-18.0.2.1/lib/src.zip!/java.base/java/lang/ArithmeticException.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program1.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program3.java" root0="SKIP_INSPECTION" />
@@ -51,8 +42,14 @@
     <setting file="file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program04ErrorCode.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program05MoreExceptions.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program06checkNullInArray.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program07.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program08.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program09.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ExceptionsSeminar2/Homework/Program1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ExceptionsSeminar2/Homework/Program2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ExceptionsSeminar2/Homework/Program4.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ExceptionsSeminar2/Program1getNumberInt.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ExceptionsSeminar2/Program2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Lesson1TaskPolynomial/Polynomial.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/seminar1HomeWork/Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/seminar6/Main.java" root0="FORCE_HIGHLIGHTING" />
@@ -98,7 +95,7 @@
       <recent name="ExcepcionsSeminar1.Homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program1">
+  <component name="RunManager" selected="Application.ExceptionsSeminar2.Homework.Program4">
     <configuration name="ExceptionsSeminar2.Homework.Program3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar2.Homework.Program3" />
@@ -179,8 +176,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Program1" />
         <item itemvalue="Application.ExceptionsSeminar2.Homework.Program4" />
+        <item itemvalue="Application.Program1" />
         <item itemvalue="Application.Program07" />
         <item itemvalue="Application.ExceptionsSeminar2.Program1" />
         <item itemvalue="Application.ExceptionsSeminar2.Homework.Program3" />
