@@ -2,6 +2,9 @@ package ExcepcionsSeminar1.Homework;
 
 import java.util.Random;
 
+import static SeveralMethods.SeveralMethods.fillArray;
+import static SeveralMethods.SeveralMethods.showArray;
+
 public class Program3 {
     public static void main(String[] args) {
         //#region not error
@@ -35,39 +38,6 @@ public class Program3 {
             differenceArr[i] = firstArr[i] - secondArr[i];
         }
         return differenceArr;
-    }
-
-    public static void fillArray(int[] array, int min, int max) {
-        Random mrRandom = new Random();
-        for (int i = 0; i < array.length; i++) {
-            array[i] = mrRandom.nextInt(min, max);
-        }
-    }
-
-    public static void fillArray(int[] array, int max) {
-        Random mrRandom = new Random();
-        for (int i = 0; i < array.length; i++) {
-            array[i] = mrRandom.nextInt(max);
-        }
-    }
-
-    public static void fillArray(Integer[] array, int max) {
-        Random mrRandom = new Random();
-        for (int i = 0; i < array.length; i++) {
-            array[i] = mrRandom.nextInt(max);
-        }
-    }
-
-    public static void showArray(int[] array) {
-        for (int j : array) {
-            System.out.printf("%d ", j);
-        }
-    }
-
-    public static void showArray(Integer[] array) {
-        for (int j : array) {
-            System.out.printf("%d ", j);
-        }
     }
 }
                                                                                                                                 

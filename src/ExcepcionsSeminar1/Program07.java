@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.LinkedList;
+import java.util.List;
 
 public class Program07 {
     public static void main(String[] args) throws IOException {
@@ -23,12 +24,12 @@ public class Program07 {
 
     private static void callMethod3(ArrayList<String> stringArraysList) {
         callMethod6("");
-        callMethod3(stringArraysList);
+        //callMethod3(stringArraysList);
     }
 
     private static Collection<String> callMethod1() throws IOException {
         callMethod2(100000000, 10-10);
-        return new LinkedList<>();
+        return new ArrayList<String>();
     }
 
     public static int callMethod2(int a, int b) throws IOException {
@@ -38,6 +39,10 @@ public class Program07 {
 
         if(fis.available() > 0) throw new RuntimeException();
         int num = callMethod4("124O");
+        if (b == 0) {
+            System.out.println("cannot devided by zero");
+            b++;
+        }
         return a/b;
     }
 

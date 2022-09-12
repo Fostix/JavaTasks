@@ -1,9 +1,11 @@
 package ExcepcionsSeminar1.Homework;
 
+import SeveralMethods.SeveralMethods;
+
 import java.util.Random;
 
-import static ExcepcionsSeminar1.Homework.Program3.fillArray;
-import static ExcepcionsSeminar1.Homework.Program3.showArray;
+import static SeveralMethods.SeveralMethods.fillArray;
+import static SeveralMethods.SeveralMethods.showArray;
 
 public class Program4 {
     public static void main(String[] args) {

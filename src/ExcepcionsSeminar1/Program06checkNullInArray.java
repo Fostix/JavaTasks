@@ -1,6 +1,6 @@
 package ExcepcionsSeminar1;
 
-import static ExcepcionsSeminar1.Homework.Program3.fillArray;
+import static SeveralMethods.SeveralMethods.fillArray;
 
 public class Program06checkNullInArray {
     public static void main(String[] args) {
