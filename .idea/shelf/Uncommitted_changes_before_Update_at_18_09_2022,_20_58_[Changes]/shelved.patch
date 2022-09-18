@@ -1,0 +1,127 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"9f9f9aa5-f25e-413d-aa4f-1614b1e6eada\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/src/ExceptionsSeminar2/Program2SumArrayValue.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Homework/Program4.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Homework/Program4.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Program2.class\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/ExceptionsSeminar2/Homework/Program3.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/ExceptionsSeminar2/Homework/Program3.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/ExceptionsSeminar2/Program2.java\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/ExceptionsSeminar2/Program3.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/ExceptionsSeminar2/Program3.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"jar://$USER_HOME$/.jdks/openjdk-18.0.2.1/lib/src.zip!/java.base/java/lang/ArithmeticException.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program1.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program2.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program3.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program4.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program01ErrorCodes.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program02.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program03ThrowException.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program04ErrorCode.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program05MoreExceptions.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program06checkNullInArray.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program07.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program08.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Program09.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExceptionsSeminar2/Homework/Program1.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExceptionsSeminar2/Homework/Program2.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExceptionsSeminar2/Homework/Program4.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExceptionsSeminar2/Program1getNumberInt.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/ExceptionsSeminar2/Program2SumArrayValue.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/src/Lesson1TaskPolynomial/Polynomial.java\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/src/seminar1HomeWork/Main.java\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/src/seminar6/Main.java\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/src/seminar6Homework/first/Main.java\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/src/seminar6Homework/second/Main.java\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/src/seminar6Homework/second/WaveAlgorithm.java\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/src/seminar7/Program.java\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/src/seminar7/Program1.java\" root0=\"FORCE_HIGHLIGHTING\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2EZsDYfQPWV1VBIKnvH6MorGU52\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,\n    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/home/albert/Desktop/Java/Seminars&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CreateClassDialog.RecentsKey\">\n      <recent name=\"SeveralMethods\" />\n      <recent name=\"\" />\n      <recent name=\"lolik\" />\n      <recent name=\"ExcepcionsSeminar1.Homework\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.ExceptionsSeminar2.Homework.Program3\">\n    <configuration name=\"ExceptionsSeminar2.Homework.Program3\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"18\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"ExceptionsSeminar2.Homework.Program3\" />\n      <module name=\"Seminars\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"ExceptionsSeminar2.Homework.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"ExceptionsSeminar2.Homework.Program4\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"18\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"ExceptionsSeminar2.Homework.Program4\" />\n      <module name=\"Seminars\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"ExceptionsSeminar2.Homework.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Program1\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"18\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"ExceptionsSeminar2.Homework.Program1\" />\n      <module name=\"Seminars\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"ExceptionsSeminar2.Homework.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Program2\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"18\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"ExceptionsSeminar2.Program2\" />\n      <module name=\"Seminars\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"ExceptionsSeminar2.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Program3\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"18\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"ExceptionsSeminar2.Program3\" />\n      <module name=\"Seminars\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"ExceptionsSeminar2.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"Application\" factoryName=\"Application\">\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"18\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"seminar1Task1.Main\" />\n      <module name=\"Seminars\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.ExceptionsSeminar2.Homework.Program3\" />\n        <item itemvalue=\"Application.Program3\" />\n        <item itemvalue=\"Application.Program2\" />\n        <item itemvalue=\"Application.ExceptionsSeminar2.Homework.Program4\" />\n        <item itemvalue=\"Application.Program1\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"9f9f9aa5-f25e-413d-aa4f-1614b1e6eada\" name=\"Changes\" comment=\"\" />\n      <created>1662814321695</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1662814321695</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"FILTERS\">\n                <map>\n                  <entry key=\"branch\">\n                    <value>\n                      <list>\n                        <option value=\"master\" />\n                      </list>\n                    </value>\n                  </entry>\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 289ad31623118874870aadcfc03c928fb213f146)
++++ b/.idea/workspace.xml	(date 1663516601423)
+@@ -5,13 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/ExceptionsSeminar2/Program2SumArrayValue.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Homework/Program4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Homework/Program4.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Program2.class" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ExceptionsSeminar2/Homework/Program3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionsSeminar2/Homework/Program3.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ExceptionsSeminar2/Program2.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ExceptionsSeminar2/Program3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionsSeminar2/Program3.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Homework/Program3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Homework/Program3.class" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -83,7 +78,7 @@
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;/home/albert/Desktop/Java/Seminars&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/media/albert/MyDisk/moreCodes/GitHub/Java/JavaTasks&quot;,
+     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+@@ -98,14 +93,14 @@
+       <recent name="ExcepcionsSeminar1.Homework" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.ExceptionsSeminar2.Homework.Program3">
+-    <configuration name="ExceptionsSeminar2.Homework.Program3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="Application.FirstTaskEx2">
++    <configuration name="Ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="ALTERNATIVE_JRE_PATH" value="18" />
+-      <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar2.Homework.Program3" />
++      <option name="MAIN_CLASS_NAME" value="ExceptionSeminar3.Ex" />
+       <module name="Seminars" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="ExceptionsSeminar2.Homework.*" />
++          <option name="PATTERN" value="ExceptionSeminar3.FirstTask.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -113,9 +108,9 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="ExceptionsSeminar2.Homework.Program4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration name="ExceptionsSeminar2.Homework.Program3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="ALTERNATIVE_JRE_PATH" value="18" />
+-      <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar2.Homework.Program4" />
++      <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar2.Homework.Program3" />
+       <module name="Seminars" />
+       <extension name="coverage">
+         <pattern>
+@@ -127,13 +122,13 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Program1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration name="FirstTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="ALTERNATIVE_JRE_PATH" value="18" />
+-      <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar2.Homework.Program1" />
++      <option name="MAIN_CLASS_NAME" value="ExceptionSeminar3.FirstTask" />
+       <module name="Seminars" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="ExceptionsSeminar2.Homework.*" />
++          <option name="PATTERN" value="ExceptionSeminar3.FirstTask.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -141,13 +136,13 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Program2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration name="FirstTaskEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="ALTERNATIVE_JRE_PATH" value="18" />
+-      <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar2.Program2" />
++      <option name="MAIN_CLASS_NAME" value="ExceptionSeminar3.FirstTask.FirstTaskEx2" />
+       <module name="Seminars" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="ExceptionsSeminar2.*" />
++          <option name="PATTERN" value="ExceptionSeminar3.FirstTask.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -155,9 +150,9 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Program3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration name="Program1getNumberInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="ALTERNATIVE_JRE_PATH" value="18" />
+-      <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar2.Program3" />
++      <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar2.Program1getNumberInt" />
+       <module name="Seminars" />
+       <extension name="coverage">
+         <pattern>
+@@ -179,11 +174,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.FirstTaskEx2" />
++        <item itemvalue="Application.FirstTask" />
++        <item itemvalue="Application.Ex" />
++        <item itemvalue="Application.Program1getNumberInt" />
+         <item itemvalue="Application.ExceptionsSeminar2.Homework.Program3" />
+-        <item itemvalue="Application.Program3" />
+-        <item itemvalue="Application.Program2" />
+-        <item itemvalue="Application.ExceptionsSeminar2.Homework.Program4" />
+-        <item itemvalue="Application.Program1" />
+       </list>
+     </recent_temporary>
+   </component>
