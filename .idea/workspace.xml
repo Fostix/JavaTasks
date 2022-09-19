@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="maked all task last seminar exceptions">
-      <change afterPath="$PROJECT_DIR$/src/ExceptionSeminar3/FourthTaskEx1/MyArrayDataException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/Count.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/Ex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/MyArrayDataException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/MyArraySizeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/Program1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/ff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionSeminar3/Ex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionSeminar3/MyArrayDataException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionSeminar3/MyArraySizeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionSeminar3/Program1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionSeminar3/ff" beforeDir="false" />
+    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="do not all push tasks">
+      <change beforePath="$PROJECT_DIR$/src/ExceptionSeminar3/FourthTaskEx1/MyArrayDataException.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,23 +67,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "full.screen.before.presentation.mode": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "/media/albert/MyDisk/moreCodes/GitHub/Java/JavaTasks/src/ExceptionSeminar3/FourthTask",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/albert/MyDisk/moreCodes/GitHub/Java/JavaTasks/src/ExceptionSeminar3/FourthTask&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="SeveralMethods" />
@@ -233,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663569966102</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="do not all push tasks">
+      <created>1663570091132</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663570091132</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,13 +257,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="maked first task" />
     <MESSAGE value="maked all task last seminar exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="maked all task last seminar exceptions" />
+    <MESSAGE value="re" />
+    <MESSAGE value="do not all push tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="do not all push tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ExceptionSeminar3/FourthTaskEx1/MyArrayDataException.java</url>
+          <url>file://$PROJECT_DIR$/src/ExceptionsSeminar3/FourthTaskEx1/MyArrayDataException.java</url>
           <line>15</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
