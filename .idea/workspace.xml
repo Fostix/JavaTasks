@@ -4,10 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExceptionsSeminar2/Program2SumArrayValue.java" afterDir="false" />
+    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="maked first task">
+      <change afterPath="$PROJECT_DIR$/src/ExceptionSeminar3/FourthTaskEx1/MyArrayDataException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Homework/Program3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar2/Homework/Program3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/Count.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/Ex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/MyArrayDataException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/MyArraySizeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/Program1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/ff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionSeminar3/Ex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionSeminar3/FourthTask/MyArrayDataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionSeminar3/FourthTask/MyArrayDataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionSeminar3/FourthTask/MyArraySizeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionSeminar3/FourthTask/MyArraySizeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionSeminar3/FourthTask/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionSeminar3/FourthTask/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionSeminar3/MyArrayDataException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionSeminar3/MyArraySizeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionSeminar3/Program1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionSeminar3/ff" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,23 +82,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/albert/Desktop/Java/Seminars&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "full.screen.before.presentation.mode": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "/media/albert/MyDisk/moreCodes/GitHub/Java/JavaTasks/src/ExceptionSeminar3/FourthTask",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="SeveralMethods" />
@@ -93,15 +106,18 @@
       <recent name="lolik" />
       <recent name="ExcepcionsSeminar1.Homework" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ExceptionSeminar3/FourthTask" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ExceptionsSeminar2.Homework.Program3">
-    <configuration name="ExceptionsSeminar2.Homework.Program3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ExceptionSeminar3.FourthTaskEx1.Program">
+    <configuration name="Ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar2.Homework.Program3" />
+      <option name="MAIN_CLASS_NAME" value="ExceptionSeminar3.Ex" />
       <module name="Seminars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExceptionsSeminar2.Homework.*" />
+          <option name="PATTERN" value="ExceptionSeminar3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,13 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionsSeminar2.Homework.Program4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ExceptionSeminar3.FourthTaskEx1.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar2.Homework.Program4" />
+      <option name="MAIN_CLASS_NAME" value="ExceptionSeminar3.FourthTaskEx1.Program" />
       <module name="Seminars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExceptionsSeminar2.Homework.*" />
+          <option name="PATTERN" value="ExceptionSeminar3.FourthTaskEx1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,13 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Program" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar2.Homework.Program1" />
+      <option name="MAIN_CLASS_NAME" value="ExceptionSeminar3.ThirdTask.Program" />
       <module name="Seminars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExceptionsSeminar2.Homework.*" />
+          <option name="PATTERN" value="ExceptionSeminar3.ThirdTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,9 +153,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Program06checkNullInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar2.Program2" />
+      <option name="MAIN_CLASS_NAME" value="ExcepcionsSeminar1.Program06checkNullInArray" />
+      <module name="Seminars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExcepcionsSeminar1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program2SumArrayValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar2.Program2SumArrayValue" />
       <module name="Seminars" />
       <extension name="coverage">
         <pattern>
@@ -175,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExceptionsSeminar2.Homework.Program3" />
+        <item itemvalue="Application.ExceptionSeminar3.FourthTaskEx1.Program" />
+        <item itemvalue="Application.Program06checkNullInArray" />
+        <item itemvalue="Application.Ex" />
         <item itemvalue="Application.Program3" />
-        <item itemvalue="Application.Program2" />
-        <item itemvalue="Application.ExceptionsSeminar2.Homework.Program4" />
-        <item itemvalue="Application.Program1" />
+        <item itemvalue="Application.Program2SumArrayValue" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +222,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662814321695</updated>
     </task>
+    <task id="LOCAL-00001" summary="maked first task">
+      <created>1663516825847</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663516825847</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,5 +254,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="maked first task" />
+    <option name="LAST_COMMIT_MESSAGE" value="maked first task" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ExceptionSeminar3/FourthTaskEx1/MyArrayDataException.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
