@@ -1,6 +1,6 @@
-package ExceptionSeminar3.FirstTask;
+package ExceptionsSeminar3.FirstTask;
 
-public class FirstTaskEx2 {
+public class FirstTask {
     public static void main(String[] args) {
         try {
             doSomething();
@@ -9,7 +9,7 @@ public class FirstTaskEx2 {
         }
     }
 
-    public static void doSomething() {
+    public static void doSomething() throws RuntimeException {
         throw new RuntimeException();
     }
 }
