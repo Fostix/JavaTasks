@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/FirstTask/FirstTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/FirstTask/FirstTaskEx2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/FourthTask/MyArrayDataException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/FourthTask/MyArraySizeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/FourthTask/Program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/FourthTaskEx1/MyArrayDataException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/FourthTaskEx1/MyArraySizeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/FourthTaskEx1/Program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/SecondTask/CountException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/SecondTask/Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/SecondTask/Program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/ThirdTask/FileNotFoundMyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/ThirdTask/MyArithmeticException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/ThirdTask/NullElementInArrayException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/ThirdTask/Program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Core/FileWriter/FileManipulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Core/FileWriter/FileManipulation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Storage/Оыукк" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Storage/Рызкпарап" beforeDir="false" />
-    </list>
+    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
