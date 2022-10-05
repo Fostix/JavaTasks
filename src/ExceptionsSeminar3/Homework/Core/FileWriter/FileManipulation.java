@@ -21,7 +21,7 @@ public class FileManipulation {
         try {
             file.createNewFile();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 
@@ -29,7 +29,7 @@ public class FileManipulation {
         try (FileWriter writer = new FileWriter(file , true)) {
             writer.write(data + "\n");
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 }

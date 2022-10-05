@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/FirstTask/FirstTask.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/FirstTask/FirstTaskEx2.class" beforeDir="false" />
@@ -22,10 +21,10 @@
       <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/ThirdTask/MyArithmeticException.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/ThirdTask/NullElementInArrayException.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionSeminar3/ThirdTask/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Core/FileWriter/FileManipulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Core/FileWriter/FileManipulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Storage/Оыукк" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Storage/Рызкпарап" beforeDir="false" />
     </list>
-=======
-    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
->>>>>>> draft
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,24 +104,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "full.screen.before.presentation.mode": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last.edited.regexp": "^(?:(?:31(\\/|-|\\.)(?:0?[13578]|1[02]))\\1|(?:(?:29|30)(\\/|-|\\.)(?:0?[1,3-9]|1[0-2])\\2))(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$|^(?:29(\\/|-|\\.)0?2\\3(?:(?:(?:1[6-9]|[2-9]\\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\\d|2[0-8])(\\/|-|\\.)(?:(?:0?[1-9])|(?:1[0-2]))\\4(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$",
-    "last_opened_file_path": "/media/albert/MyDisk/moreCodes/GitHub/Java/JavaTasks/src/ExceptionSeminar3/FourthTask",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors"
-=======
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
@@ -133,15 +114,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last.edited.regexp&quot;: &quot; &lt;Уский&gt;&lt;sdfdsfdsf&gt;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/albert/MyDisk/moreCodes/GitHub/Java/Seminars&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;last.edited.regexp&quot;: &quot;^(?:(?:31(\\/|-|\\.)(?:0?[13578]|1[02]))\\1|(?:(?:29|30)(\\/|-|\\.)(?:0?[1,3-9]|1[0-2])\\2))(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$|^(?:29(\\/|-|\\.)0?2\\3(?:(?:(?:1[6-9]|[2-9]\\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\\d|2[0-8])(\\/|-|\\.)(?:(?:0?[1-9])|(?:1[0-2]))\\4(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/albert/MyDisk/moreCodes/GitHub/Java/JavaTasks/src/ExceptionSeminar3/FourthTask&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;yiiguxing.plugin.translate&quot;
->>>>>>> draft
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="SeveralMethods" />
@@ -154,11 +134,21 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ExceptionsSeminar3.Homework.Client.Program">
-<<<<<<< HEAD
     <configuration name="Ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-=======
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar3.Homework.Client.Program" />
+      <module name="Seminars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExceptionsSeminar3.Homework.Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExceptionsSeminar3.Homework.Client.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
->>>>>>> draft
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar3.Homework.Client.Program" />
       <module name="Seminars" />
@@ -186,28 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="ExceptionsSeminar3.Homework.Client.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar3.Homework.Client.Program" />
-      <module name="Seminars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExceptionsSeminar3.Homework.Client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-=======
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Seminars" />
->>>>>>> draft
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar3.ThirdTask.Program" />
@@ -222,7 +190,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
     <configuration name="Program06checkNullInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="MAIN_CLASS_NAME" value="ExcepcionsSeminar1.Program06checkNullInArray" />
@@ -237,8 +204,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-=======
->>>>>>> draft
     <configuration name="Program3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar2.Homework.Program3" />
@@ -277,26 +242,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Program" />
+      <item itemvalue="Application.Ex" />
+      <item itemvalue="Application.Program06checkNullInArray" />
       <item itemvalue="Application.Lesson1TaskPolynomial.Main" />
       <item itemvalue="Application.Program_1" />
       <item itemvalue="Application.Program3" />
       <item itemvalue="Application.ExceptionsSeminar3.Homework.Client.Program" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ExceptionsSeminar3.Homework.Client.Program" />
-<<<<<<< HEAD
-        <item itemvalue="Application.ExceptionsSeminar3.FourthTaskEx1.Program" />
         <item itemvalue="Application.Program06checkNullInArray" />
         <item itemvalue="Application.Ex" />
         <item itemvalue="Application.Program3" />
-=======
-        <item itemvalue="Application.Program_1" />
-        <item itemvalue="Application.Program3" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Lesson1TaskPolynomial.Main" />
->>>>>>> draft
       </list>
     </recent_temporary>
   </component>
@@ -337,25 +295,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663570321100</updated>
     </task>
-<<<<<<< HEAD
     <option name="localTasksCounter" value="5" />
-=======
-    <task id="LOCAL-00005" summary="maked last exception homework">
-      <created>1664987783960</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1664987783960</updated>
-    </task>
-    <task id="LOCAL-00006" summary="maked last exception homework">
-      <created>1664987792179</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1664987792179</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
->>>>>>> draft
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -387,12 +327,7 @@
     <MESSAGE value="re" />
     <MESSAGE value="do not all push tasks" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-<<<<<<< HEAD
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-=======
-    <MESSAGE value="maked last exception homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="maked last exception homework" />
->>>>>>> draft
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
