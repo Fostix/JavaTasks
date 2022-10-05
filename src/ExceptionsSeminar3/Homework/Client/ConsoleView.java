@@ -13,9 +13,16 @@ public class ConsoleView implements View {
     @Override
     public String readConsole() {
         Scanner in = new Scanner(System.in);
-        //return "уский текс привее 26.04.2022 m 891739545876";
-        return "Mupa Pupa Lumpa 1.01.1111 m 891739545876";//scanner.nextLine();
+        return in.nextLine();
     }
 
+    @Override
+    public void fewDataEntered() {
+        System.out.println("Less data entered than required try again");
+    }
 
+    @Override
+    public void moreDataEntered() {
+        System.out.println("More data entered than required try again");
+    }
 }

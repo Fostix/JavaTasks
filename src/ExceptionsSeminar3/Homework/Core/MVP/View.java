@@ -1,7 +1,11 @@
 package ExceptionsSeminar3.Homework.Core.MVP;
 
 public interface View {
-    public void enter();
+    void enter();
 
-    public String readConsole();
+    String readConsole();
+
+    void fewDataEntered();
+
+    void moreDataEntered();
 }

@@ -12,8 +12,5 @@ public class App {
 
     public void start() {
         presenter.add();
-        while (true) {
-
-        }
     }
 }
