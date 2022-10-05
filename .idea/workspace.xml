@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_09_2022,_20_58_[Changes]/Program3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_09_2022,_20_58_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_09_2022__20_58__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Client/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Client/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Client/ConsoleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Client/ConsoleView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Core/MVP/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Core/MVP/Model.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Core/MVP/Presenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Core/MVP/Presenter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Core/MVP/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/ExceptionsSeminar3/Homework/Core/MVP/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionsSeminar3/Homework/Client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionsSeminar3/Homework/Client/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionsSeminar3/Homework/Client/ConsoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionsSeminar3/Homework/Client/ConsoleView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionsSeminar3/Homework/Core/MVP/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionsSeminar3/Homework/Core/MVP/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionsSeminar3/Homework/Core/MVP/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionsSeminar3/Homework/Core/MVP/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExceptionsSeminar3/Homework/Core/MVP/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionsSeminar3/Homework/Core/MVP/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson1TaskPolynomial/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1TaskPolynomial/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,24 +83,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "full.screen.before.presentation.mode": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last.edited.regexp": " <Уский><sdfdsfdsf>",
-    "last_opened_file_path": "/media/albert/MyDisk/moreCodes/GitHub/Java/Seminars",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "yiiguxing.plugin.translate"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last.edited.regexp&quot;: &quot; &lt;Уский&gt;&lt;sdfdsfdsf&gt;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/albert/MyDisk/moreCodes/GitHub/Java/Seminars&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;yiiguxing.plugin.translate&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="SeveralMethods" />
@@ -272,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663570321100</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="maked last exception homework">
+      <created>1664987783960</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664987783960</updated>
+    </task>
+    <task id="LOCAL-00006" summary="maked last exception homework">
+      <created>1664987792179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664987792179</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,7 +301,8 @@
     <MESSAGE value="re" />
     <MESSAGE value="do not all push tasks" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="maked last exception homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="maked last exception homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
