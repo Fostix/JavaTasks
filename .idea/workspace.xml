@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="" />
+    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,11 +225,11 @@
     <list>
       <item itemvalue="Application.Program" />
       <item itemvalue="Application.Ex" />
-      <item itemvalue="Application.Program06checkNullInArray" />
-      <item itemvalue="Application.Lesson1TaskPolynomial.Main" />
-      <item itemvalue="Application.Program_1" />
-      <item itemvalue="Application.Program3" />
       <item itemvalue="Application.ExceptionsSeminar3.Homework.Client.Program" />
+      <item itemvalue="Application.Lesson1TaskPolynomial.Main" />
+      <item itemvalue="Application.Program06checkNullInArray" />
+      <item itemvalue="Application.Program3" />
+      <item itemvalue="Application.Program_1" />
     </list>
     <recent_temporary>
       <list>
@@ -325,7 +327,7 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/JavaTasks$ExceptionsSeminar3_Homework_Client_Program.ic" NAME="ExceptionsSeminar3.Homework.Client.Program Coverage Results" MODIFIED="1664020295748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/JavaTasks$ExceptionsSeminar3_Homework_Client_Program.ic" NAME="ExceptionsSeminar3.Homework.Client.Program Coverage Results" MODIFIED="1664989392094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ExceptionsSeminar3.Homework.Client.*</FILTER>
     </SUITE>
   </component>
