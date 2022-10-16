@@ -1,4 +1,4 @@
-package L1.ModelElements;
+package DesignPatterns.L1.ModelElements;
 
 import DesignPatterns.L1.ModelElements.othersModels.Type;
 
