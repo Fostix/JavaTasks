@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1/InMemoryModel/IModelChangedObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/L1/InMemoryModel/IModelChangedObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1/InMemoryModel/IModelChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/L1/InMemoryModel/IModelChanger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1/InMemoryModel/ModelStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/L1/InMemoryModel/ModelStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1/ModelElements/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/L1/ModelElements/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1/ModelElements/Flash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/L1/ModelElements/Flash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1/ModelElements/Poligon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/L1/ModelElements/Poligon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1/ModelElements/PoligonalModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/L1/ModelElements/PoligonalModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1/ModelElements/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/L1/ModelElements/Scene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1/ModelElements/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/L1/ModelElements/Texture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1/ModelElements/othersModels/Angle3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/L1/ModelElements/othersModels/Angle3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1/ModelElements/othersModels/Point3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/L1/ModelElements/othersModels/Point3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L1/ModelElements/othersModels/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/L1/ModelElements/othersModels/Type.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +16,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
+        <option value="Interface" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -110,7 +100,7 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
     &quot;last.edited.regexp&quot;: &quot;^(?:(?:31(\\/|-|\\.)(?:0?[13578]|1[02]))\\1|(?:(?:29|30)(\\/|-|\\.)(?:0?[1,3-9]|1[0-2])\\2))(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$|^(?:29(\\/|-|\\.)0?2\\3(?:(?:(?:1[6-9]|[2-9]\\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\\d|2[0-8])(\\/|-|\\.)(?:(?:0?[1-9])|(?:1[0-2]))\\4(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$&quot;,
     &quot;last_opened_file_path&quot;: &quot;/media/albert/MyDisk/moreCodes/GitHub/Java/JavaTasks/src&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
@@ -118,17 +108,32 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="DesignPatterns.S2H.Weapons" />
+      <recent name="DesignPatterns.S2H" />
       <recent name="SeveralMethods" />
       <recent name="" />
       <recent name="lolik" />
-      <recent name="ExcepcionsSeminar1.Homework" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/ExceptionSeminar3/FourthTask" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExceptionsSeminar3.Homework.Client.Program">
+  <component name="RunManager" selected="Application.DesignPatterns.S2H.Client.Program">
+    <configuration name="DesignPatterns.S2H.Client.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.S2H.Client.Program" />
+      <module name="Seminars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.S2H.Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="MAIN_CLASS_NAME" value="ExceptionsSeminar3.Homework.Client.Program" />
@@ -150,20 +155,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ExceptionsSeminar3.Homework.Client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson1TaskPolynomial.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="MAIN_CLASS_NAME" value="Lesson1TaskPolynomial.Main" />
-      <module name="Seminars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson1TaskPolynomial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,20 +204,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="18" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Program_1" />
-      <module name="Seminars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="MAIN_CLASS_NAME" value="seminar1Task1.Main" />
@@ -237,15 +214,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.Program" />
+      <item itemvalue="Application.DesignPatterns.S2H.Client.Program" />
       <item itemvalue="Application.Ex" />
       <item itemvalue="Application.ExceptionsSeminar3.Homework.Client.Program" />
-      <item itemvalue="Application.Lesson1TaskPolynomial.Main" />
       <item itemvalue="Application.Program06checkNullInArray" />
       <item itemvalue="Application.Program3" />
-      <item itemvalue="Application.Program_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignPatterns.S2H.Client.Program" />
         <item itemvalue="Application.ExceptionsSeminar3.Homework.Client.Program" />
         <item itemvalue="Application.Program06checkNullInArray" />
         <item itemvalue="Application.Ex" />
