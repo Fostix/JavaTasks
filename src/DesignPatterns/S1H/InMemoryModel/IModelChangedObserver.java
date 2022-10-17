@@ -1,4 +1,4 @@
-package DesignPatterns.L1.InMemoryModel;
+package DesignPatterns.S1H.InMemoryModel;
 
 public interface IModelChangedObserver {
     public void applyUpdateModel();

@@ -1,4 +1,4 @@
-package DesignPatterns.L1.ModelElements;
+package DesignPatterns.S1H.ModelElements;
 
 import java.util.ArrayList;
 import java.util.List;

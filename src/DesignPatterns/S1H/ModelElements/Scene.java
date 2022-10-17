@@ -1,6 +1,6 @@
-package DesignPatterns.L1.ModelElements;
+package DesignPatterns.S1H.ModelElements;
 
-import DesignPatterns.L1.ModelElements.othersModels.Type;
+import DesignPatterns.S1H.ModelElements.othersModels.Type;
 
 import java.util.List;
 

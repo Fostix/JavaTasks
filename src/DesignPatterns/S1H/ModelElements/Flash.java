@@ -1,7 +1,7 @@
-package DesignPatterns.L1.ModelElements;
+package DesignPatterns.S1H.ModelElements;
 
-import DesignPatterns.L1.ModelElements.othersModels.Angle3D;
-import DesignPatterns.L1.ModelElements.othersModels.Point3D;
+import DesignPatterns.S1H.ModelElements.othersModels.Angle3D;
+import DesignPatterns.S1H.ModelElements.othersModels.Point3D;
 
 import java.awt.*;
 

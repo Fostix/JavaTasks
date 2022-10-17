@@ -1,9 +1,9 @@
-package DesignPatterns.L1.InMemoryModel;
+package DesignPatterns.S1H.InMemoryModel;
 
-import DesignPatterns.L1.ModelElements.Camera;
-import DesignPatterns.L1.ModelElements.Flash;
-import DesignPatterns.L1.ModelElements.PoligonalModel;
-import DesignPatterns.L1.ModelElements.Scene;
+import DesignPatterns.S1H.ModelElements.Camera;
+import DesignPatterns.S1H.ModelElements.Flash;
+import DesignPatterns.S1H.ModelElements.PoligonalModel;
+import DesignPatterns.S1H.ModelElements.Scene;
 
 import java.util.ArrayList;
 import java.util.List;
