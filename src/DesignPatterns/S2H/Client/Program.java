@@ -13,7 +13,7 @@ import DesignPatterns.S2H.Weapons.Bow;
 import DesignPatterns.S2H.Weapons.Sword;
 
 public class Program {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // use patterns singleton and abstract factory
         IArmorsFactory body = ArmorFactorySingleton.getInstance();
         Platemail badPlatemail = body.createPlatemail("borik");
         Chainmail goodChainmail = body.createChainmail("Buhruma");
