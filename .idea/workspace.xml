@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Client/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Client/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Factoryes/Armor/ArmorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Factoryes/Armor/ArmorFactorySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Factoryes/Weapon/WeaponFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Factoryes/Weapon/WeaponFactorySingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,11 +1,22 @@
 package DesignPatterns.S2H.Factoryes.Weapon;
 
+import DesignPatterns.S2H.Factoryes.Armor.ArmorFactorySingleton;
 import DesignPatterns.S2H.Factoryes.Factory;
 import DesignPatterns.S2H.Weapons.*;
 
-import java.util.Random;
+public class WeaponFactorySingleton extends Factory implements IWeaponsFactory{
+    private static WeaponFactorySingleton instance;
 
-public class WeaponFactory extends Factory implements IWeaponsFactory{
+    private WeaponFactorySingleton() {
+    }
+
+    public static WeaponFactorySingleton getInstance() {
+        if(instance == null) {
+            instance = new WeaponFactorySingleton();
+        }
+
+        return instance;
+    }
     @Override
     public Bow createSimpleBow(String nameBow) {
         int damage = random.nextInt(5, 15);
