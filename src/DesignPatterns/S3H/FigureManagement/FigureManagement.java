@@ -3,14 +3,16 @@ package DesignPatterns.S3H.FigureManagement;
 import DesignPatterns.S3H.ArrayFigure.ArrayFigure;
 import DesignPatterns.S3H.Exceptions.InvalidFigureParametersException;
 import DesignPatterns.S3H.FigureManagement.Interfaces.ICalculateOfAllArea;
+import DesignPatterns.S3H.FigureManagement.Interfaces.ICalculateOfAllCircumference;
 import DesignPatterns.S3H.FigureManagement.Interfaces.ICalculateOfAllPerimeter;
 import DesignPatterns.S3H.FigureModels.*;
 import DesignPatterns.S3H.FigureModels.Interface.ICalculateAre;
 import DesignPatterns.S3H.FigureModels.Interface.ICalculatePerimeter;
+import DesignPatterns.S3H.FigureModels.Interface.ICircumference;
 import DesignPatterns.S3H.View.PrintInConsole;
 import DesignPatterns.S3H.View.View;
 
-public class FigureManagement implements ICalculateOfAllPerimeter, ICalculateOfAllArea{
+public class FigureManagement implements ICalculateOfAllPerimeter, ICalculateOfAllArea, ICalculateOfAllCircumference {
 
     private ArrayFigure<Figure> figureList;
     private View view;
@@ -57,6 +59,8 @@ public class FigureManagement implements ICalculateOfAllPerimeter, ICalculateOfA
         view.showOfAllPerimeter(result);
     }
 
+
+
     @Override
     public void calculateOfAllArea() {
         double result = 0;
@@ -65,5 +69,15 @@ public class FigureManagement implements ICalculateOfAllPerimeter, ICalculateOfA
                 result += ((ICalculateAre) figure).calculateAre();
         }
         view.showOfAllArea(result);
+    }
+
+    @Override
+    public void calculateOfAllCircumference() {
+        double result = 0;
+        for (Figure figure : figureList) {
+            if (figure instanceof ICircumference)
+                result += ((ICircumference) figure).circumference();
+        }
+        view.showOfAllCircumference(result);
     }
 }

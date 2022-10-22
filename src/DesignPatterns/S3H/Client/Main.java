@@ -12,6 +12,7 @@ public class Main {
         figureManagement.createCircle(3);
         figureManagement.calculateOfAllArea();
         figureManagement.calculateOfAllPerimeter();
+        figureManagement.calculateOfAllCircumference();
         figureManagement.createRectangle(5, 2);
         figureManagement.calculateOfAllArea();
         figureManagement.calculateOfAllPerimeter();

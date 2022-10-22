@@ -15,4 +15,9 @@ public class PrintInConsole implements View{
     public void showOfAllPerimeter(double result) {
         System.out.println(result);
     }
+
+    @Override
+    public void showOfAllCircumference(double result) {
+        System.out.println(result);
+    }
 }
