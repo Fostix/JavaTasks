@@ -1,9 +1,10 @@
 package DesignPatterns.S3H.FigureModels;
 
 import DesignPatterns.S3H.Exceptions.InvalidFigureParametersException;
+import DesignPatterns.S3H.FigureModels.Interface.ICircumference;
 
-public class Circle extends Figure {
-    private double r; // radius
+public class Circle extends FigureWithoutCorners  {
+    private double r;
 
     /** Specify the radius of the circle
      * @param r radius */
@@ -20,7 +21,7 @@ public class Circle extends Figure {
     }
 
     @Override
-    public double calculatePerimeter() {
+    public double circumference() {
         return 2 * Math.PI * r;
     }
 }

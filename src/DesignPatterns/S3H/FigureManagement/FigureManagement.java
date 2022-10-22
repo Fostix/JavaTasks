@@ -5,39 +5,36 @@ import DesignPatterns.S3H.Exceptions.InvalidFigureParametersException;
 import DesignPatterns.S3H.FigureManagement.Interfaces.ICalculateOfAllArea;
 import DesignPatterns.S3H.FigureManagement.Interfaces.ICalculateOfAllPerimeter;
 import DesignPatterns.S3H.FigureModels.*;
+import DesignPatterns.S3H.FigureModels.Interface.ICalculateAre;
+import DesignPatterns.S3H.FigureModels.Interface.ICalculatePerimeter;
+import DesignPatterns.S3H.View.PrintInConsole;
+import DesignPatterns.S3H.View.View;
 
 public class FigureManagement implements ICalculateOfAllPerimeter, ICalculateOfAllArea{
 
     private ArrayFigure<Figure> figureList;
+    private View view;
 
     public FigureManagement() {
         this.figureList = new ArrayFigure<>();
+        this.view = new PrintInConsole();
     }
 
-    public void createTriangle(double a, double b, double c) { // helo ;lj
+    public void createTriangle(double a, double b, double c) {
         try {
             Figure triangle = new Triangle(a, b, c);
             figureList.addNewShape(triangle);
         } catch (InvalidFigureParametersException e) {
-            System.err.println(String.format("%s", e.getMessage()));
+            view.InvalidFigureParametersException(String.format("%s", e.getMessage()));
         }
     }
 
-    public void createSquare(double a) {
-        try {
-            Figure square = new Square(a);
-            figureList.addNewShape(square);
-        } catch (InvalidFigureParametersException e) {
-            System.err.println(String.format("%s", e.getMessage()));
-        }
-    }
-
-    public void createRectangle(double a, double b) { // can't line side less than thero (0).
+    public void createRectangle(double a, double b) {
         try {
             Figure rectangle = new Rectangle(a, b);
             figureList.addNewShape(rectangle);
         } catch (InvalidFigureParametersException e){
-            System.err.println(String.format("%s", e.getMessage()));
+            view.InvalidFigureParametersException(String.format("%s", e.getMessage()));
         }
     }
 
@@ -46,25 +43,27 @@ public class FigureManagement implements ICalculateOfAllPerimeter, ICalculateOfA
             Figure circle = new Circle(a);
             figureList.addNewShape(circle);
         } catch (InvalidFigureParametersException e) {
-            System.err.println(String.format("%s", e.getMessage()));
+            view.InvalidFigureParametersException(String.format("%s", e.getMessage()));
         }
     }
 
     @Override
-    public double calculateOfAllPerimeter() {
+    public void calculateOfAllPerimeter() {
         double result = 0;
         for (Figure figure : figureList) {
-            result += figure.calculatePerimeter();
+            if (figure instanceof ICalculatePerimeter)
+            result += ((ICalculatePerimeter) figure).calculatePerimeter();
         }
-        return result;
+        view.showOfAllPerimeter(result);
     }
 
     @Override
-    public double calculateOfAllArea() {
+    public void calculateOfAllArea() {
         double result = 0;
         for (Figure figure : figureList) {
-            result += figure.calculateAre();
+            if (figure instanceof ICalculateOfAllArea)
+                result += ((ICalculateAre) figure).calculateAre();
         }
-        return result;
+        view.showOfAllArea(result);
     }
 }

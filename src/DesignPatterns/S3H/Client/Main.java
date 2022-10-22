@@ -7,19 +7,16 @@ public class Main {
         FigureManagement figureManagement = new FigureManagement();
 
         figureManagement.createRectangle(5, 0);
-        System.out.println(figureManagement.calculateOfAllArea());
-        System.out.println(figureManagement.calculateOfAllPerimeter());
+        figureManagement.calculateOfAllArea();
+        figureManagement.calculateOfAllPerimeter();
         figureManagement.createCircle(3);
-        System.out.println(figureManagement.calculateOfAllArea());
-        System.out.println(figureManagement.calculateOfAllPerimeter());
+        figureManagement.calculateOfAllArea();
+        figureManagement.calculateOfAllPerimeter();
         figureManagement.createRectangle(5, 2);
-        System.out.println(figureManagement.calculateOfAllArea());
-        System.out.println(figureManagement.calculateOfAllPerimeter());
-        figureManagement.createSquare(5);
-        System.out.println(figureManagement.calculateOfAllArea());
-        System.out.println(figureManagement.calculateOfAllPerimeter());
-        figureManagement.createTriangle(2, 2, 0);
-        System.out.println(figureManagement.calculateOfAllArea());
-        System.out.println(figureManagement.calculateOfAllPerimeter());
+        figureManagement.calculateOfAllArea();
+        figureManagement.calculateOfAllPerimeter();
+        figureManagement.createTriangle(2, 2, 2);
+        figureManagement.calculateOfAllArea();
+        figureManagement.calculateOfAllPerimeter();
     }
 }

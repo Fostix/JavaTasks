@@ -2,7 +2,7 @@ package DesignPatterns.S3H.FigureModels;
 
 import DesignPatterns.S3H.Exceptions.InvalidFigureParametersException;
 
-public class Triangle extends Figure {
+public class Triangle extends FigureWithCorners {
     private double a;
     private double b;
     private double c;

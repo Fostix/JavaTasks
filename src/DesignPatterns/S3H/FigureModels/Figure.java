@@ -1,11 +1,7 @@
 package DesignPatterns.S3H.FigureModels;
 
 import DesignPatterns.S3H.Exceptions.InvalidFigureParametersException;
+import DesignPatterns.S3H.FigureModels.Interface.ICalculateAre;
 
-public abstract class Figure{
-    public Figure() {
-    }
-
-    public abstract double calculateAre();
-    public abstract double calculatePerimeter();
+public abstract class Figure implements ICalculateAre {
 }
