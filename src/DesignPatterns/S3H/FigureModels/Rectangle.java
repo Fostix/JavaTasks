@@ -26,4 +26,12 @@ public class Rectangle extends FigureWithCorners {
     public double calculatePerimeter() {
         return 2 * (a + b);
     }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "a=" + a +
+                ", b=" + b +
+                '}';
+    }
 }

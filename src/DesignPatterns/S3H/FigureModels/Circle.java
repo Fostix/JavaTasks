@@ -24,4 +24,11 @@ public class Circle extends FigureWithoutCorners  {
     public double circumference() {
         return 2 * Math.PI * r;
     }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "r=" + r +
+                '}';
+    }
 }
