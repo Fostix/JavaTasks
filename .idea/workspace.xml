@@ -31,8 +31,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S2H/Armors/Armor.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S2H/Armors/Chainmail.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S2H/Weapons/Bow.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S2H/Weapons/EpicBow.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S2H/Weapons/EpicSword.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S3H/Client/Main.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S3H/Exceptions/InvalidFigureParametersException.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S3H/FigureModels/Circle.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S3H/FigureModels/Triangle.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program1.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ExcepcionsSeminar1/Homework/Program2.java" root0="SKIP_INSPECTION" />
