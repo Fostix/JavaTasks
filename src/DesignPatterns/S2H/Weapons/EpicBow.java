@@ -1,7 +1,7 @@
 package DesignPatterns.S2H.Weapons;
 
-public class EpicBow extends Bow{
-    public EpicBow(String name, int damage, int range) {
-        super(name, damage, range);
+public class EpicBow extends Bow {
+    public EpicBow(String name) {
+        super(name, 8, 20);
     }
 }

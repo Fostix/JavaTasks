@@ -5,7 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Armors/Armor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Armors/Armor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Armors/Chainmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Armors/Chainmail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Armors/Platemail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Armors/Platemail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Client/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Client/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Factoryes/Armor/ArmorFactorySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Factoryes/Armor/IArmorsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Factoryes/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Factoryes/Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Factoryes/Weapon/IWeaponsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Factoryes/Weapon/WeaponFactorySingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Hero/Archer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Hero/Archer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Hero/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Hero/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Hero/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Hero/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Weapons/EpicBow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Weapons/EpicBow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Weapons/EpicSword.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Weapons/EpicSword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Weapons/SimpleBow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Weapons/SimpleBow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Weapons/SimpleSword.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Weapons/SimpleSword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Armors/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Armors/Armor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Armors/Chainmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Armors/Chainmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Armors/Platemail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Armors/Platemail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Client/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Client/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Factoryes/Armor/ArmorFactorySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Factoryes/Armor/IArmorsFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Factoryes/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Factoryes/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Factoryes/Weapon/IWeaponsFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Factoryes/Weapon/WeaponFactorySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Hero/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Hero/Archer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Hero/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Hero/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Hero/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Hero/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Weapons/EpicBow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Weapons/EpicBow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Weapons/EpicSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Weapons/EpicSword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Weapons/SimpleBow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Weapons/SimpleBow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S2H/Weapons/SimpleSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S2H/Weapons/SimpleSword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3H/FigureManagement/FigureManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3H/FigureManagement/FigureManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3H/FigureModels/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3H/FigureModels/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3H/FigureModels/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3H/FigureModels/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3H/FigureModels/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3H/FigureModels/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +69,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S2H/Armors/Armor.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S2H/Armors/Chainmail.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S2H/Armors/EpicChainmail.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S2H/Armors/EpicPlatemail.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S2H/Weapons/Bow.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S2H/Weapons/EpicBow.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/DesignPatterns/S2H/Weapons/EpicSword.java" root0="SKIP_INSPECTION" />
@@ -107,7 +145,7 @@
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
     &quot;last.edited.regexp&quot;: &quot;^(?:(?:31(\\/|-|\\.)(?:0?[13578]|1[02]))\\1|(?:(?:29|30)(\\/|-|\\.)(?:0?[1,3-9]|1[0-2])\\2))(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$|^(?:29(\\/|-|\\.)0?2\\3(?:(?:(?:1[6-9]|[2-9]\\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\\d|2[0-8])(\\/|-|\\.)(?:(?:0?[1-9])|(?:1[0-2]))\\4(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/albert/MyDisk/moreCodes/GitHub/Java/JavaTasks&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/albert/MyDisk/moreCodes/GitHub/Java/JavaTasks/src/DesignPatterns/S3HE2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -116,7 +154,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -128,11 +166,12 @@
       <recent name="lolik" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/DesignPatterns/S3HE2" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/ExceptionSeminar3/FourthTask" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.DesignPatterns.S2H.Client.Program">
     <configuration name="DesignPatterns.S2H.Client.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.S2H.Client.Program" />
@@ -235,8 +274,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.DesignPatterns.S2H.Client.Program" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ExceptionsSeminar3.Homework.Client.Program" />
         <item itemvalue="Application.Program06checkNullInArray" />
         <item itemvalue="Application.Ex" />
@@ -254,7 +293,29 @@
       <workItem from="1666331835524" duration="238000" />
       <workItem from="1666332102007" duration="116000" />
       <workItem from="1666332233153" duration="5148000" />
-      <workItem from="1666434996240" duration="5979000" />
+      <workItem from="1666434996240" duration="7807000" />
+      <workItem from="1666515506324" duration="666000" />
+      <workItem from="1666534037685" duration="453000" />
+      <workItem from="1666549985769" duration="791000" />
+      <workItem from="1666550793550" duration="25000" />
+      <workItem from="1666550820021" duration="73000" />
+      <workItem from="1666550903623" duration="74000" />
+      <workItem from="1666550979570" duration="236000" />
+      <workItem from="1666588638088" duration="1164000" />
+      <workItem from="1666592498499" duration="5401000" />
+      <workItem from="1666672004337" duration="699000" />
+      <workItem from="1666702889016" duration="13000" />
+      <workItem from="1666973564882" duration="3756000" />
+      <workItem from="1667024128280" duration="614000" />
+      <workItem from="1667025300048" duration="3039000" />
+      <workItem from="1667054933478" duration="1823000" />
+      <workItem from="1667057662978" duration="748000" />
+      <workItem from="1667061215875" duration="73000" />
+      <workItem from="1667061300324" duration="78000" />
+      <workItem from="1667061379805" duration="716000" />
+      <workItem from="1667111769075" duration="379000" />
+      <workItem from="1667112160641" duration="4552000" />
+      <workItem from="1667123721839" duration="5029000" />
     </task>
     <task id="LOCAL-00001" summary="maked first task">
       <created>1663516825847</created>
@@ -328,6 +389,11 @@
           <url>file://$PROJECT_DIR$/src/ExceptionsSeminar3/FourthTaskEx1/MyArrayDataException.java</url>
           <line>15</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DesignPatterns/S2H/Client/Program.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

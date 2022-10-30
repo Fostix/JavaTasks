@@ -33,7 +33,10 @@ public class FigureManagement implements ICalculateOfAllPerimeter, ICalculateOfA
 
     public void createRectangle(double a, double b) {
         try {
-            Figure rectangle = new Rectangle(a, b);
+            if (a == b) {
+                Figure square = new Square(a, b);
+            }
+            Figure rectangle = new Rectangle(a, b); // if a == b to create square!!
             figureList.addNewShape(rectangle);
         } catch (InvalidFigureParametersException e){
             view.InvalidFigureParametersException(String.format("%s", e.getMessage()));

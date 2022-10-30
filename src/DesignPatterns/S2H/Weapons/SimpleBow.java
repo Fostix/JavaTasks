@@ -1,7 +1,7 @@
 package DesignPatterns.S2H.Weapons;
 
 public class SimpleBow extends Bow{
-    public SimpleBow(String name, int damage, int range) {
-        super(name, damage, range);
+    public SimpleBow(String name) {
+        super(name, 3, 12);
     }
 }
