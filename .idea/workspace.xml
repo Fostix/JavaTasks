@@ -4,46 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Client/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Client/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Hero/Archer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Hero/Archer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Hero/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Hero/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Hero/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S2H/Hero/Knight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3H/FigureManagement/FigureManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3H/FigureManagement/FigureManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3H/FigureModels/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3H/FigureModels/Figure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3H/FigureModels/Interface/ICalculateAre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3H/View/PrintInConsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3H/View/PrintInConsole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/Client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/Client/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureManagement/FigureManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureManagement/FigureManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Figure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/FigureWithCorners.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/FigureWithCorners.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/FigureWithoutCorners.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/FigureWithoutCorners.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Interface/ICalculateAre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/View/PrintInConsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminars/DesignPatterns/S3HE2/View/PrintInConsole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3H/FigureManagement/FigureManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3H/FigureManagement/FigureManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3H/FigureModels/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3H/FigureModels/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3H/FigureModels/Interface/ICalculateAre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3H/FigureModels/Interface/ICalculateArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3H/View/PrintInConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3H/View/PrintInConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/Client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/Client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureManagement/FigureManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureManagement/FigureManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/FigureWithCorners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/FigureWithCorners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/FigureWithoutCorners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/FigureWithoutCorners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/Interface/ICalculateAre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/Interface/ICalculateArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/FigureModels/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/View/PrintInConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/S3HE2/View/PrintInConsole.java" afterDir="false" />
-    </list>
+    <list default="true" id="9f9f9aa5-f25e-413d-aa4f-1614b1e6eada" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +114,7 @@
     "full.screen.before.presentation.mode": "false",
     "jdk.selected.JAVA_MODULE": "18",
     "last.edited.regexp": "^(?:(?:31(\\/|-|\\.)(?:0?[13578]|1[02]))\\1|(?:(?:29|30)(\\/|-|\\.)(?:0?[1,3-9]|1[0-2])\\2))(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$|^(?:29(\\/|-|\\.)0?2\\3(?:(?:(?:1[6-9]|[2-9]\\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\\d|2[0-8])(\\/|-|\\.)(?:(?:0?[1-9])|(?:1[0-2]))\\4(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$",
-    "last_opened_file_path": "/media/albert/MyDisk4/moreCodes/GitHub/Java/Study",
+    "last_opened_file_path": "/media/albert/MyDisk/moreCodes/GitHub/Java/JavaTasks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
