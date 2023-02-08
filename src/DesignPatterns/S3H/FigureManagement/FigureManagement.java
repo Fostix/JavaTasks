@@ -6,7 +6,7 @@ import DesignPatterns.S3H.FigureManagement.Interfaces.ICalculateOfAllArea;
 import DesignPatterns.S3H.FigureManagement.Interfaces.ICalculateOfAllCircumference;
 import DesignPatterns.S3H.FigureManagement.Interfaces.ICalculateOfAllPerimeter;
 import DesignPatterns.S3H.FigureModels.*;
-import DesignPatterns.S3H.FigureModels.Interface.ICalculateAre;
+import DesignPatterns.S3H.FigureModels.Interface.ICalculateArea;
 import DesignPatterns.S3H.FigureModels.Interface.ICalculatePerimeter;
 import DesignPatterns.S3H.FigureModels.Interface.ICircumference;
 import DesignPatterns.S3H.View.PrintInConsole;
@@ -68,8 +68,8 @@ public class FigureManagement implements ICalculateOfAllPerimeter, ICalculateOfA
     public void calculateOfAllArea() {
         double result = 0;
         for (Figure figure : figureList) {
-            if (figure instanceof ICalculateOfAllArea)
-                result += ((ICalculateAre) figure).calculateAre();
+            if (figure instanceof ICalculateArea)
+                result += ((ICalculateArea) figure).calculateAre();
         }
         view.showOfAllArea(result);
     }

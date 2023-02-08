@@ -6,7 +6,15 @@ public class Main {
     public static void main(String[] args) {
         FigureManagement figureManagement = new FigureManagement();
 
-        figureManagement.createRectangle(5, 0);
+        figureManagement.createSquare(2);
+        figureManagement.calculateOfAllArea();
+        figureManagement.calculateOfAllPerimeter();
+
+        figureManagement.createTriangle(2, 2, 2);
+        figureManagement.calculateOfAllArea();
+        figureManagement.calculateOfAllPerimeter(); // last
+
+        figureManagement.createRectangle(5, 3);
         figureManagement.calculateOfAllArea();
         figureManagement.calculateOfAllPerimeter();
         figureManagement.createCircle(3);
@@ -15,9 +23,6 @@ public class Main {
         figureManagement.calculateOfAllCircumference();
         figureManagement.createRectangle(5, 2);
         figureManagement.calculateOfAllArea();
-        figureManagement.calculateOfAllPerimeter();
-        figureManagement.createTriangle(2, 2, 2);
-        figureManagement.calculateOfAllArea();
-        figureManagement.calculateOfAllPerimeter();
+        figureManagement.calculateOfAllPerimeter(); // 3
     }
 }

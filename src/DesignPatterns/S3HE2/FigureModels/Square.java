@@ -9,14 +9,7 @@ public class Square extends Rectangle {
     }
 
     @Override
-    public double calculatePerimeter() {
-        return 0;
-    }
-
-    @Override
     public double calculateAre() {
-        return 0;
+        return super.lines[0] * 4;
     }
-
-
 }

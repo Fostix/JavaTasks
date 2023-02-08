@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="620cd037-a258-453f-aa36-ce1ead1de6b5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S2H/Client/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S2H/Client/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S2H/Hero/Archer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S2H/Hero/Archer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S2H/Hero/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S2H/Hero/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S2H/Hero/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S2H/Hero/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3H/FigureManagement/FigureManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3H/FigureManagement/FigureManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3H/FigureModels/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3H/FigureModels/Figure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3H/FigureModels/Interface/ICalculateAre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3H/View/PrintInConsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3H/View/PrintInConsole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/Client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/Client/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureManagement/FigureManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureManagement/FigureManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Figure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/FigureWithCorners.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/FigureWithCorners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/FigureWithoutCorners.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/FigureWithoutCorners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Interface/ICalculateAre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/FigureModels/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/View/PrintInConsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Seminars/DesignPatterns/S3HE2/View/PrintInConsole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3H/FigureManagement/FigureManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3H/FigureManagement/FigureManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3H/FigureModels/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3H/FigureModels/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3H/FigureModels/Interface/ICalculateAre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3H/FigureModels/Interface/ICalculateArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3H/View/PrintInConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3H/View/PrintInConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/Client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/Client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureManagement/FigureManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureManagement/FigureManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/FigureWithCorners.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/FigureWithCorners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/FigureWithoutCorners.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/FigureWithoutCorners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/Interface/ICalculateAre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/Interface/ICalculateArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/FigureModels/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/View/PrintInConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DesignPatterns/S3HE2/View/PrintInConsole.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GwriKtlAwhViqvMqNjIonaKb57" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "/media/albert/MyDisk/moreCodes/GitHub/Java/MyTelegramBot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Docker"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/telegram/Games/Candies" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.telegram.Games.Candies.Client.Client" />
+      <module name="MyTelegramBot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.telegram.Games.Candies.Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.telegram.Main" />
+      <module name="MyTelegramBot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.telegram.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="620cd037-a258-453f-aa36-ce1ead1de6b5" name="Changes" comment="" />
+      <created>1667310614965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667310614965</updated>
+      <workItem from="1667310616790" duration="5949000" />
+      <workItem from="1667364971563" duration="4917000" />
+      <workItem from="1667395996482" duration="380000" />
+      <workItem from="1667396939881" duration="8278000" />
+      <workItem from="1667450951189" duration="874000" />
+      <workItem from="1667451838650" duration="41000" />
+      <workItem from="1667451891001" duration="126000" />
+      <workItem from="1667452260991" duration="169000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

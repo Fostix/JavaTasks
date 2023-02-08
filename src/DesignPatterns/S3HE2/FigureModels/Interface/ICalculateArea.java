@@ -1,5 +1,5 @@
 package DesignPatterns.S3HE2.FigureModels.Interface;
 
-public interface ICalculateAre {
+public interface ICalculateArea {
     double calculateAre();
 }
