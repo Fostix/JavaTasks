@@ -1,8 +1,7 @@
 package DesignPatterns.S3H.FigureModels;
 
-import DesignPatterns.S3H.Exceptions.InvalidFigureParametersException;
-import DesignPatterns.S3H.FigureModels.Interface.ICalculateAre;
+import DesignPatterns.S3H.FigureModels.Interface.ICalculateArea;
 
-public abstract class Figure implements ICalculateAre {
+public abstract class Figure implements ICalculateArea {
 
 }
